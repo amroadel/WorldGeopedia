@@ -3,3 +3,5 @@
 *.bak
 *.rar
 *.drawio
+*.csv
+play.py
