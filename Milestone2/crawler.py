@@ -17,14 +17,14 @@ def get_countries(continent):
         td = tr[i].find_all('td', {})
         # Note: Oceania has index 3
         # Note: North America has index 1 others are 2
-        a = td[1].find('a', {})
+        a = td[2].find('a', {})
         country_name = a.get("title")
         country_url = a.get("href")
         countries = countries.append({'Country':country_name, 'URL':f'https://en.wikipedia.org{country_url}'}, ignore_index = True)
     return countries
 
 #%%
-c =get_countries('North_America')
+c =get_countries('South_America')
 c.to_csv("North_America_countries.csv", sep=',', encoding='utf-8', index=False)
 
 # %%
@@ -59,6 +59,11 @@ class Country:
         '''
         html_data = requests.get(self.url,'parser.html').text
         soupObj = BeautifulSoup(html_data,'html.parser')
+        table_rows = (soupObj.find(class_ = "infobox ib-country vcard"))
+        country_name = table_rows.find('div', {'class':'fn org country-name'}).text
+        calling_code = table_rows.select_one('th:-soup-contains("Calling code") + td').text
+        driving_side = table_rows.select_one('th:-soup-contains("Driving side") + td').text
+        gov_type = table_rows.select_one('th:-soup-contains("Government") + td').text
 
 
 
