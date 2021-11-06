@@ -35,6 +35,10 @@ class Country:
         '''
         self.url = url
         self.name = name
+        self.capital = ''
+        self.capital_url = ''
+        self.president = ''
+        self.president_url = ''
         self.calling_code = ''
         self.driving_side = ''
         self.gov_type = ''
@@ -90,7 +94,6 @@ class Country:
         area = area.find_next_sibling().select_one('th:-soup-contains("Total") + td')
         if area is not None:
             area = list(area.children)
-            print(area[0].text)
             for i in range (len(area)):
                 if area[i].text != '':
                     area = area[i].text
@@ -138,8 +141,14 @@ class Country:
                     hdi = hdi[i].text
                     break
 
+        capital = table_rows.select_one('th:-soup-contains("Capital") + td')
+        capital = capital.find('a', {})
+        capital_url = capital.get('href')
+        capital = capital.get('title')
 
         self.name = country_name
+        self.capital = capital
+        self.capital_url = capital_url
         self.calling_code = calling_code
         self.driving_side = driving_side
         self.gov_type = gov_type
