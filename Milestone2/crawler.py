@@ -60,10 +60,23 @@ class Country:
         html_data = requests.get(self.url,'parser.html').text
         soupObj = BeautifulSoup(html_data,'html.parser')
         table_rows = (soupObj.find(class_ = "infobox ib-country vcard"))
-        country_name = table_rows.find('div', {'class':'fn org country-name'}).text
-        calling_code = table_rows.select_one('th:-soup-contains("Calling code") + td').text
-        driving_side = table_rows.select_one('th:-soup-contains("Driving side") + td').text
-        gov_type = table_rows.select_one('th:-soup-contains("Government") + td').text
+        
+        self.country_name = table_rows.find('div', {'class':'fn org country-name'}).text
+        self.calling_code = table_rows.select_one('th:-soup-contains("Calling code") + td').text
+        self.driving_side = table_rows.select_one('th:-soup-contains("Driving side") + td').text
+        self.gov_type = table_rows.select_one('th:-soup-contains("Government") + td').text
+        self.population = (list(table_rows.select_one('th:-soup-contains("estimate") + td').children)[1].text).strip() # revise this
+        self.area = (list(table_rows.select_one('th:-soup-contains("Total") + td').children)[0].text).strip() # revise this
+        self.water_percentage = table_rows.select_one('th:-soup-contains("Water") + td').text
+
+        self.gdp_pp = table_rows.select_one('th:-soup-contains("PPP")').find_parent()
+        self.gdp_pp = (list(self.gdp_pp.find_next_sibling().select_one('td').children)[1].text)
+
+        self.gdp_nominal = table_rows.select_one('th:-soup-contains("nominal")').find_parent()
+        self.gdp_nominal = (list(self.gdp_nominal.find_next_sibling().select_one('td').children)[1].text)
+
+        self.gini_index = list(table_rows.select_one('th:-soup-contains("Gini") + td').children)[1].text
+        self.hdi = list(table_rows.select_one('th:-soup-contains("HDI") + td').children)[1].text
 
 
 
