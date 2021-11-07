@@ -52,9 +52,9 @@ class Country:
         self.hdi = -1
         self.covid_cases = -1
         self.vaccines = -1
+        self.legislature = ''
         self.timezone = []
         self.currency = []
-        self.legislature = []
         self.official_lang = []
     
     def parse_country_data(self):
@@ -162,6 +162,16 @@ class Country:
             president_name = None
             president_url = None
 
+        legislature = table_rows.select_one('th:-soup-contains("Legislature") + td')
+        if legislature is not None:
+            legislature = list(legislature.children)
+            for i in range(len(legislature)):
+                if legislature[i].text != '':
+                    legislature = legislature[i].text
+                    break
+        if not legislature or legislature == ' ':
+            legislature = None
+
         self.name = country_name
         self.capital = capital
         self.capital_url = capital_url
@@ -177,6 +187,7 @@ class Country:
         self.gdp_nominal = gdp_nominal
         self.gini_index = gini_index
         self.hdi = hdi
+        self.legislature = legislature
 
         # self.covid_cases = -1
         # self.vaccines = -1
