@@ -146,9 +146,27 @@ class Country:
         capital_url = capital.get('href')
         capital = capital.get('title')
 
+        president = table_rows.select_one('th:-soup-contains("President") + td')
+        if not president:
+            president = table_rows.select_one('th:-soup-contains("Monarch") + td')
+        if not president:
+            president = table_rows.select_one('th:-soup-contains("Head of State") + td')
+        if not president:
+            president = table_rows.select_one('th:-soup-contains("King") + td')
+
+        if president:
+            president = president.find('a', {})
+            president_url = president.get('href')
+            president_name = president.get('title')
+        else:
+            president_name = None
+            president_url = None
+
         self.name = country_name
         self.capital = capital
         self.capital_url = capital_url
+        self.president = president_name
+        self.president_url = president_url
         self.calling_code = calling_code
         self.driving_side = driving_side
         self.gov_type = gov_type
