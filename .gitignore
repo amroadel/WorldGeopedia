@@ -5,3 +5,6 @@
 *.drawio
 *.csv
 play.py
+covid.py
+president.py
+capital.py
