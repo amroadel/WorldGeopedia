@@ -3,6 +3,7 @@ from pandas.core.frame import DataFrame
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+import re
 #%%
 def get_countries(continents):
     index = {'North_America': 1,'Asia': 2, 'Africa': 2, 'South_America': 2, 'Europe': 2, 'Oceania': 3}
@@ -35,24 +36,24 @@ class Country:
         '''
         self.url = url
         self.name = name
-        self.capital = ''
-        self.capital_url = ''
-        self.president = ''
-        self.president_url = ''
-        self.calling_code = ''
-        self.driving_side = ''
-        self.gov_type = ''
+        self.capital = None
+        self.capital_url = None
+        self.president = None
+        self.president_url = None
+        self.calling_code = None
+        self.driving_side = None
+        self.gov_type = None
         self.continent = continent
-        self.population = -1
-        self.area = -1
-        self.water_percentage = -1
-        self.gdp_pp = -1
-        self.gdp_nominal = -1
-        self.gini_index = -1
-        self.hdi = -1
-        self.covid_cases = -1
-        self.vaccines = -1
-        self.legislature = ''
+        self.population = None
+        self.area = None
+        self.water_percentage = None
+        self.gdp_pp = None
+        self.gdp_nominal = None
+        self.gini_index = None
+        self.hdi = None
+        self.covid_cases = None
+        self.vaccines = None
+        self.legislature = None
         self.timezone = []
         self.currency = []
         self.official_lang = []
@@ -61,11 +62,15 @@ class Country:
         '''
         Parse the required information for each country
         '''
+        rates = {'million':1_000_000, 'billion':1_000_000_000, 'trillion': 1_000_000_000_000}
         html_data = requests.get(self.url,'parser.html').text
         soupObj = BeautifulSoup(html_data,'html.parser')
         table_rows = (soupObj.find(class_ = "infobox ib-country vcard"))
         for ref in table_rows.find_all("sup", {'class':'reference'}): 
             ref.decompose()
+
+        for img in table_rows.find_all("a", {'class':'image'}): 
+            img.decompose()
 
         country_name = table_rows.find('div', {'class':'fn org country-name'})
         if country_name:
@@ -77,27 +82,43 @@ class Country:
 
         driving_side = table_rows.select_one('th:-soup-contains("Driving side") + td')
         if driving_side:
-            driving_side = driving_side.text.strip(' ')
+            driving_side = driving_side.text.strip(' ')[0]
 
         gov_type = table_rows.select_one('th:-soup-contains("Government") + td')
         if gov_type:
             gov_type = gov_type.text.strip(' ')
 
-        population = table_rows.select_one('th:-soup-contains("Population")').find_parent()
-        population = population.find_next_sibling().select_one('td')
-        if population is not None:
-            population = list(population.children)
-            for i in range(len(population)):
-                if population[i].text != '':
-                    population = population[i].text.strip('( ')
-                    break
+        population = table_rows.select_one('th:-soup-contains("Population") + td')
+        if not population:
+            try:
+                population = table_rows.select_one('th:-soup-contains("Population")')
+                population = population.find_parent()
+                population = population.find_next_sibling().select_one('td')
+            except:
+                population = None
+        if population:
+            population = population.text.strip(' ')
+            population = re.sub(r'\([\w\s]+\)', "", population)
+            population = population.replace(',', '')
+            population = float(re.findall(r'\d+\.\d+|\d+',population)[0])
+            
 
         area = table_rows.select_one('th:-soup-contains("Area") + td:-soup-contains("km")')
         if not area:
-            area = table_rows.select_one('th:-soup-contains("Area")').find_parent()
-            area = area.find_next_sibling().select_one('td:-soup-contains("km")')
+            try:
+                area = table_rows.select_one('th:-soup-contains("Area")')
+                area = area.find_parent()
+                area = area.find_next_sibling().select_one('td:-soup-contains("km")')
+            except:
+                area = None
         if area:
             area = area.text.strip(' ')
+            area = re.sub(r'\([\w\s]+\)', "", area)
+            area = area.replace(',', '')
+            area = area.replace('km2', '')
+            area = area.replace('sq', '')
+            area = area.replace('mi', '')
+            area = float(re.findall(r'\d+\.\d+|\d+',area)[0])
    
 
         water_percentage = table_rows.select_one('th:-soup-contains("Water") + td')
@@ -106,25 +127,42 @@ class Country:
             for i in range(len(water_percentage)):
                 if water_percentage[i].text != '':
                     water_percentage = water_percentage[i].text
+                    if water_percentage.strip() in ['negligible', 'Negligible', 'n/a']:
+                        water_percentage = 0.0
+                    else:
+                        water_percentage = float(re.findall(r'\d+\.\d+|\d+',(water_percentage.replace('%', '')))[0])
                     break
 
-        gdp_pp = table_rows.select_one('th:-soup-contains("PPP")').find_parent()
-        gdp_pp = gdp_pp.find_next_sibling().select_one('th:-soup-contains("Total") + td:-soup-contains("$")')
+        try:
+            gdp_pp = table_rows.select_one('th:-soup-contains("PPP")').find_parent()
+            gdp_pp = gdp_pp.find_next_sibling().select_one('th:-soup-contains("Total") + td:-soup-contains("$")')
+        except:
+            gdp_pp = None
+
         if gdp_pp:
-            gdp_pp = list(gdp_pp.children)
-            for i in range (len(gdp_pp)):
-                if (gdp_pp[i].text.find("$") >= 0):
-                    gdp_pp = gdp_pp[i].text.strip('( )')
-                    break
+            gdp_pp = gdp_pp.text.replace(',','')
+            gdp_pp = re.findall(r'\d+\.\d+\s+\w+|\d+\s+\w+', gdp_pp)[0].split()
+            if gdp_pp[1] not in rates.keys():
+                gdp_pp = float(gdp_pp[0])
+            else:
+                gdp_pp = float(gdp_pp[0]) * rates[gdp_pp[1]]
 
-        gdp_nominal = table_rows.select_one('th:-soup-contains("nominal")').find_parent()
-        gdp_nominal = gdp_nominal.find_next_sibling().select_one('th:-soup-contains("Total") + td:-soup-contains("$")')
+                
+        try:
+            gdp_nominal = table_rows.select_one('th:-soup-contains("nominal")').find_parent()
+            gdp_nominal = gdp_nominal.find_next_sibling().select_one('th:-soup-contains("Total") + td:-soup-contains("$")')
+        except:
+            gdp_nominal = None
+
         if gdp_nominal:
-            gdp_nominal = list(gdp_nominal.children)
-            for i in range (len(gdp_nominal)):
-                if (gdp_nominal[i].text.find("$") >= 0):
-                    gdp_nominal = gdp_nominal[i].text.strip('( )')
-                    break
+            gdp_nominal = gdp_nominal.text.replace(',','')
+            gdp_nominal = re.findall(r'\d+\.\d+\s+\w+|\d+\s+\w+', gdp_nominal)[0].split()
+            if gdp_nominal[1] not in rates.keys():
+                gdp_nominal = float(gdp_nominal[0])
+            else:
+                gdp_nominal = float(gdp_nominal[0]) * rates[gdp_nominal[1]]
+
+
 
         gini_index = table_rows.select_one('th:-soup-contains("Gini") + td')
         if gini_index:
@@ -132,6 +170,7 @@ class Country:
             for i in range (len(gini_index)):
                 if gini_index[i].text != '':
                     gini_index = gini_index[i].text.strip('( )')
+                    gini_index = float(re.findall(r'\d+\.\d+|\d+', gini_index)[0])
                     break
 
         hdi = table_rows.select_one('th:-soup-contains("HDI") + td')
@@ -140,13 +179,17 @@ class Country:
             for i in range (len(hdi)):
                 if hdi[i].text != '':
                     hdi = hdi[i].text.strip('( )')
+                    hdi = float(re.findall(r'\d+\.\d+|\d+', hdi)[0])
                     break
-
-        capital = table_rows.select_one('th:-soup-contains("Capital") + td')
-        capital = capital.find('a', {})
-        capital_url = capital.get('href')
-        capital = capital.text
-        # capital = capital.get('title')
+        try:
+            capital = table_rows.select_one('th:-soup-contains("Capital") + td')
+            capital = capital.find('a', {})
+            capital_url = capital.get('href')
+            # capital = capital.text
+            capital = capital.get('title')
+        except:
+            capital_url = f'/wiki/{self.name}'
+            capital = self.name
 
         # Delete Kingdom to not conflict with King
         kingdom = table_rows.select_one('th:-soup-contains("Kingdom")')
@@ -163,10 +206,10 @@ class Country:
                     or table_rows.select_one('th:-soup-contains("King") + td') \
                     or table_rows.select_one('th:-soup-contains("Chairman") + td') \
                     or table_rows.select_one('th:-soup-contains("Prime Minister") + td') \
-                    or table_rows.select_one('th:-soup-contains("Sultan") + td')
+                    or table_rows.select_one('th:-soup-contains("Sultan") + td')\
+                    or table_rows.select_one('th:-soup-contains("Captains Regent") + td')\
+                    or table_rows.select_one('th:-soup-contains("Federal Council") + td')
                     
-
-
         if president:
             president = president.find('a', {})
             president_url = president.get('href')
@@ -191,6 +234,7 @@ class Country:
             for i in range(len(currency_)):
                 a_li = currency_[i].find('a', title=True)
                 currency.append(a_li.text.strip(' '))
+                break
         else:
             currency = []
             currency_ = table_rows.select_one('th:-soup-contains("Currency") + td')
@@ -222,14 +266,20 @@ class Country:
                 official_lang.append(languages_.text.strip(' '))
 
         #Parse Timezone
-        timezone = []
+        timezone = set()
         timezone_ = table_rows.select_one('th:-soup-contains("zone") + td')
         if timezone_:
-            timezone.append(timezone_.text.strip(' '))
+            timezone_ = timezone_.text.split(',')
+            for t in timezone_:
+                # t = re.sub(r'\([\w\s]+\)', "", t)
+                timezone.add(t)
 
         timezone_s = table_rows.select_one('th:-soup-contains("Summer") + td')
         if timezone_s:
-            timezone.append(timezone_s.text.strip(' '))
+            timezone_s = timezone_s.text.split(',')
+            for ts in timezone_s:
+                # ts = re.sub(r'\([\w\s]+\)', "", ts)
+                timezone.add(ts)
 
         self.name = country_name
         self.capital = capital
@@ -297,35 +347,61 @@ class Capital:
         self.name = name
         self.url = f'https://en.wikipedia.org{url}'
         self.country_name = country_name
-        self.population = -1
-        self.governor = ''
-        self.area = ''
-        self.coordinates = ''
+        self.population = None
+        self.governor = None
+        self.area = None
+        self.coordinates = None
     
     def parse_capital_data(self):
+
+        if self.name in ['City-state', 'De jure', ' De_jure']:
+            return
 
         # Read the table
         html_data = requests.get(self.url,'parser.html').text
         soupObj = BeautifulSoup(html_data,'html.parser')
-        table_rows = (soupObj.find(class_ = "infobox ib-settlement vcard"))
+        table_rows = (soupObj.find(class_ = "infobox"))
         for ref in table_rows.find_all("sup", {'class':'reference'}): 
             ref.decompose()
+
+        p = table_rows.select_one('tr:-soup-contains("Population rank")')
+        if p: p.decompose()
+
+        d = table_rows.select_one('tr:-soup-contains("Density")')
+        if d: d.decompose()
 
         # Parse population
         population = table_rows.select_one('th:-soup-contains("Population") + td')
         if not population:
-            population = table_rows.select_one('th:-soup-contains("Population")').find_parent()
-            population = population.find_next_sibling().select_one('td')
+            try:
+                population = table_rows.select_one('th:-soup-contains("Population")')
+                population = population.find_parent()
+                population = population.find_next_sibling().select_one('td')
+            except:
+                population = None
         if population:
             population = population.text.strip(' ')
+            population = re.sub(r'\([\w\s]+\)', "", population)
+            population = population.replace(',', '')
+            population = float(re.findall(r'\d+\.\d+|\d+', population)[0])
 
         # Parse Area
         area = table_rows.select_one('th:-soup-contains("Area") + td:-soup-contains("km")')
         if not area:
-            area = table_rows.select_one('th:-soup-contains("Area")').find_parent()
-            area = area.find_next_sibling().select_one('td:-soup-contains("km")')
+            try:
+                area = table_rows.select_one('th:-soup-contains("Area")')
+                area = area.find_parent()
+                area = area.find_next_sibling().select_one('td:-soup-contains("km")')
+            except:
+                area = None
         if area:
             area = area.text.strip(' ')
+            area = re.sub(r'\([\w\s]+\)', "", area)
+            area = area.replace(',', '')
+            area = area.replace('km2', '')
+            area = area.replace('sq', '')
+            area = area.replace('mi', '')
+            area = float(re.findall(r'\d+\.\d+|\d+', area)[0])
         
         #Parse Coordinates
         coordinates = table_rows.find('span', {'class':'geo-dec'})
@@ -336,7 +412,7 @@ class Capital:
         governorate = table_rows.select_one('th:-soup-contains("Governorate")')
         if governorate: 
             governorate.decompose()
-        # Parse Governer/Mayor
+        # Parse Governor/Mayor
         governor = table_rows.select_one('th:-soup-contains("Governor") + td') \
                    or table_rows.select_one('th:-soup-contains("Mayor") + td')
         
@@ -378,8 +454,9 @@ class President:
         if assumed_office:
             remove = assumed_office.find('b', {})
             if remove: remove.decompose()
-            assumed_office = assumed_office.text
-            assumed_office = assumed_office.strip(' ')
+            assumed_office = assumed_office.text.replace(',', '')
+            # print(assumed_office)
+            assumed_office = re.findall(r'\d+\s+\w+\s+\d+|\w+\s+\d+\s+\d+',assumed_office)[0]
         
         #Parse birthdate
         birthdate = table_rows.find('span', {'class':'bday'})
@@ -407,8 +484,7 @@ class President:
 def main():
     continents = ['Africa','North_America', 'Asia', 'South_America', 'Europe', 'Oceania']
     countries_info = get_countries(continents)
-    # countries_info.to_csv("all_countries.csv", sep=',', encoding='utf-8', index=False)
-
+    
     countries = []
     capitals= []
     presidents = []
@@ -417,6 +493,8 @@ def main():
     timezones = []
     for index, country in countries_info.iterrows():
 
+        if country['Name'] == 'Vatican City':
+            continue
         try:
             country_data = Country(country['Name'], country['Continent'], country['URL'])
             country_data.parse_country_data()
@@ -433,7 +511,7 @@ def main():
 
             tzones = country_data.get_timezone()
             for zone in tzones:
-                timezones.append({'country_name':country['Name'], 'timezone':tzones})        
+                timezones.append({'country_name':country['Name'], 'timezone':zone})        
 
             capital_name = country_data.get_capital_name()
             capital_url = country_data.get_capital_url()
@@ -453,25 +531,40 @@ def main():
         # if index == 10:
         #     break
 
+
+    countries_info.to_csv("countries_urls.csv", sep=',', encoding='utf-8', index=False)
+
     countries = pd.DataFrame.from_records(countries)
-    countries.to_csv("data/countries.csv", sep=',', encoding='utf-8', index=False)
+    countries.to_csv("data/countries.csv", sep=',', encoding='utf-8-sig', index=False)
 
     capitals= pd.DataFrame.from_records(capitals)
-    capitals.to_csv("data/capitals.csv", sep=',', encoding='utf-8', index=False)
+    capitals.to_csv("data/capitals.csv", sep=',', encoding='utf-8-sig', index=False)
 
     presidents = pd.DataFrame.from_records(presidents)
-    presidents.to_csv("data/presidents.csv", sep=',', encoding='utf-8', index=False)
+    presidents.to_csv("data/presidents.csv", sep=',', encoding='utf-8-sig', index=False)
 
     official_languages = pd.DataFrame.from_records(official_languages)
-    official_languages.to_csv("data/official_languages.csv", sep=',', encoding='utf-8', index=False)
+    official_languages.to_csv("data/official_languages.csv", sep=',', encoding='utf-8-sig', index=False)
 
     currencies = pd.DataFrame.from_records(currencies)
-    currencies.to_csv("data/currencies.csv", sep=',', encoding='utf-8', index=False)
+    currencies.to_csv("data/currencies.csv", sep=',', encoding='utf-8-sig', index=False)
 
     timezones = pd.DataFrame.from_records(timezones)
-    timezones.to_csv("data/timezones.csv", sep=',', encoding='utf-8', index=False)
+    timezones.to_csv("data/timezones.csv", sep=',', encoding='utf-8-sig', index=False)
 
 
 
 if __name__ == "__main__":
     main()
+
+# country_data = Country('United States', 'North America', 'https://en.wikipedia.org/wiki/United_States')
+# country_data.parse_country_data()
+# x = country_data.get_single_valued_attr()
+# capital_data = Capital('De jure', '/wiki/De_jure', 'Switzerland')
+# capital_data.parse_capital_data()
+
+# president = President('Moon_Jae-in','/wiki/Moon_Jae-in', 'South_Korea')
+# president.parse_president_data()
+# print(x)
+# print(capital_data.get_parsed_attr())
+# print(president.get_parsed_attr())

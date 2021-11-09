@@ -1,0 +1,195 @@
+﻿name,country_name,population,governor,area,coordinates
+Algiers,Algeria,3915811.0,Abdelkader Seyouda (since 2019),363.0,36.75389°N 3.05889°E
+Luanda,Angola,2571861.0,,116.0,8.83833°S 13.23444°E
+Porto-Novo,Benin,264320.0,Emmanuel Zossou,110.0,6.49722°N 2.60500°E
+Gaborone,Botswana,231626.0,Thata Father Maphongo (BDP),169.0,24.65806°S 25.91222°E
+Ouagadougou,Burkina Faso,2453496.0,Armand Béouindé (since 2016),520.0,12.367°N 1.533°W
+Gitega,Burundi,135467.0,,22.0,3.433°S 29.900°E
+Yaoundé,Cameroon,2765600.0,,180.0,3.867°N 11.517°E
+Praia,Cape Verde,159050.0,,102.6,14.918°N 23.509°W
+Bangui,Central African Republic,889231.0,Emile Raymond Gros Nakombo (2016–present),67.0,4.37333°N 18.56278°E
+N'Djamena,Chad,916000.0,,104.0,12.11000°N 15.05000°E
+"Moroni, Comoros",Comoros,111326.0,,30.0,11.699°S 43.256°E
+Kinshasa,Democratic Republic of the Congo,17071000.0,Gentiny Ngobila Mbala,9965.0,4.32500°S 15.32222°E
+Brazzaville,Republic of the Congo,1696392.0,Dieudonné Bantsimba,263.9,4.26778°S 15.29194°E
+Djibouti (city),Djibouti,600000.0,Fatouma Awaleh Osman,26.0,11.58833°N 43.14500°E
+Cairo,Egypt,1539673.0,Khaled Abdel Aal,3085.12,30.033°N 31.233°E
+Malabo,Equatorial Guinea,297000.0,,21.0,3.7520639°N 8.7737000°E
+Asmara,Eritrea,963000.0,Fshaye Haile,45.0,15.32278°N 38.92500°E
+Mbabane,Eswatini,94874.0,Sikhumbuzo Dube,81.76,26.317°S 31.133°E
+Addis Ababa,Ethiopia,3384569.0,Adanech Abebe,527.0,9.03000°N 38.74000°E
+Libreville,Gabon,703904.0,,65.42,0.39028°N 9.45417°E
+Banjul,The Gambia,73000.0,Rohey Malick Lowe,12.0,13.45306°N 16.57750°W
+Accra,Ghana,5055900.0,,173.0,5.550°N 0.200°W
+Conakry,Guinea,1660973.0,,450.0,9.50917°N 13.71222°W
+Bissau,Guinea-Bissau,492004.0,,77.5,11.850°N 15.567°W
+Yamoussoukro,Ivory Coast,361893.0,Augustin Abdoulaye Thiam Houphouët,3500.0,6.81611°N 5.27417°W
+Nairobi,Kenya,4397073.0,Anne Kananu Mwenda,696.0,1.28639°S 36.81722°E
+Maseru,Lesotho,330760.0,,138.0,29.31°S 27.48°E
+Monrovia,Liberia,1010970.0,Jefferson T. Koijee,75.0,6.31333°N 10.80139°W
+Tripoli,Libya,1170000.0,Abdulrauf Beitelmal,1507.0,32.88722°N 13.19139°E
+Antananarivo,Madagascar,1275207.0,Naina Andriantsitohaina,85.01,18.933°S 47.517°E
+Lilongwe,Malawi,989318.0,Juliana Kaduya,727.79,13.983°S 33.783°E
+Bamako,Mali,2713000.0,,245.0,12.63917°N 8.00278°W
+Nouakchott,Mauritania,1195600.0,,1000.0,18.08581°N 15.9785°W
+Port Louis,Mauritius,147066.0,Daniel Eric Clive Laurent,46.7,20.16444°S 57.50417°E
+Rabat,Morocco,577827.0,Asmaa Rhlalou,117.0,34.033°N 6.833°W
+Maputo,Mozambique,1088449.0,Iolanda Cintura,347.69,25.967°S 32.583°E
+Windhoek,Namibia,431000.0,Job Amupanda (AR),5133.0,22.57000°S 17.08361°E
+Niamey,Niger,1026848.0,Assane Seydou Sanda,239.3,13.51167°N 2.12528°E
+Abuja,Nigeria,1235880.0,,1769.0,9.067°N 7.483°E
+Kigali,Rwanda,1132686.0,Pudence Rubingisa,730.0,1.94389°S 30.05944°E
+São Tomé,Sao Tome and Principe,71868.0,,17.0,0.33611°N 6.73056°E
+Dakar,Senegal,1146052.0,Soham El Wardini (2018) (BSS/PS),83.0,14.69278°N 17.44667°W
+"Victoria, Seychelles",Seychelles,26450.0,David André,20.1,4.617°S 55.450°E
+Freetown,Sierra Leone,1055964.0,Yvonne Aki-Sawyerr (APC),81.48,8.48444°N 13.23444°W
+Mogadishu,Somalia,5488000.0,Omar M. Finnish,,2.033°N 45.333°E
+Pretoria,South Africa,2472612.0,Randall Williams (DA),687.54,25.74611°S 28.18806°E
+Juba,South Sudan,525953.0,Stephen Wani Michael,52.0,4.850°N 31.600°E
+Khartoum,Sudan,639598.0,,1010.0,15.50056°N 32.56000°E
+Dodoma,Tanzania,2245800.0,Davis G. Mwamfupe,2576.0,6.17306°S 35.74194°E
+Lomé,Togo,837437.0,Aouissi Lodé,99.14,6.13194°N 1.22278°E
+Tunis,Tunisia,638845.0,Souad Abderrahim (Ennahda),212.63,36.80639°N 10.18167°E
+Kampala,Uganda,1680600.0,Erias Lukwago,189.0,0.31361°N 32.58111°E
+Lusaka,Zambia,1747152.0,Miles Sampa,418.0,15.417°S 28.283°E
+Harare,Zimbabwe,2123132.0,Jacob Mafume (MDC),960.6,17.82917°S 31.05222°E
+"St. John's, Antigua and Barbuda",Antigua and Barbuda,22219.0,,10.0,17.117°N 61.850°W
+"Nassau, Bahamas",The Bahamas,274400.0,,207.0,25.067°N 77.333°W
+Bridgetown,Barbados,110000.0,,15.0,13.09750°N 59.61667°W
+Belmopan,Belize,16451.0,Khalid Belisle (UDP),32.78,17.25139°N 88.76694°W
+Ottawa,Canada,934243.0,Jim Watson,2790.3,45.42472°N 75.69500°W
+"San José, Costa Rica",Costa Rica,342188.0,Johnny Araya Monge (PASJ),44.62,9.933°N 84.083°W
+Havana,Cuba,2130517.0,Reinaldo García Zapata (PCC),728.26,23.13667°N 82.35889°W
+Roseau,Dominica,14725.0,Cecil Joseph,,15.301389°N 61.388333°W
+Santo Domingo,Dominican Republic,965040.0,Carolina Mejía,104.44,18.467°N 69.950°W
+San Salvador,El Salvador,2406709.0,Mario Durán,72.25,13.69889°N 89.19139°W
+"St. George's, Grenada",Grenada,33734.0,,,12.050°N 61.750°W
+Guatemala City,Guatemala,995393.0,Ricardo Quiñónez Lemus (Unionist),220.0,14.61333°N 90.53528°W
+Port-au-Prince,Haiti,987310.0,Ralph Youri Chevry,36.04,18.533°N 72.333°W
+Tegucigalpa,Honduras,1276738.0,Nasry Asfura (PNH),1502.0,14.100°N 87.217°W
+"Kingston, Jamaica",Jamaica,662435.0,Delroy Williams,480.0,17.97139°N 76.79306°W
+Mexico City,Mexico,9209944.0, Claudia Sheinbaum,1485.0,19.433°N 99.133°W
+Managua,Nicaragua,1055247.0,Reyna Rueda,267.0,12.13639°N 86.25139°W
+Panama City,Panama,880691.0,José Luis Fábrega (PRD),275.0,8.983°N 79.517°W
+Basseterre,Saint Kitts and Nevis,14000.0,,6.1,17.300°N 62.733°W
+Castries,Saint Lucia,20000.0,Geraldine Lendor-Gabriel,79.0,14.017°N 60.983°W
+Kingstown,Saint Vincent and the Grenadines,12909.0,,,13.15778°N 61.22500°W
+Port of Spain,Trinidad and Tobago,37074.0,"Joel Martinez, PNM",12.0,10.667°N 61.517°W
+"Washington, D.C.",United States,689545.0,Muriel Bowser (D),68.34,38.9101°N 77.0147°W
+Kabul,Afghanistan,4601789.0,Hamdullah Nomani,1028.24,34.52528°N 69.17833°E
+Yerevan,Armenia,1060138.0,Hayk Marutyan,223.0,40.18139°N 44.51444°E
+Baku,Azerbaijan,2293100.0,Eldar Azizov,2140.0,40.39528°N 49.88222°E
+Manama,Bahrain,200000.0,Hamad bin Isa Al Khalifa,30.0,26.22500°N 50.57750°E
+Dhaka,Bangladesh,1.0,Atiqul Islam,306.0,23.76389°N 90.38889°E
+Thimphu,Bhutan,114551.0,,26.1,27.47222°N 89.63611°E
+Bandar Seri Begawan,Brunei,100700.0,,100.36,4.89028°N 114.94222°E
+Phnom Penh,Cambodia,2281951.0,Khuong Sreng (CPP),679.0,11.56944°N 104.92111°E
+Beijing,China,21893095.0,Chen Jining,16410.5,39.90667°N 116.39750°E
+Nicosia,Cyprus,55014.0,Constantinos Yiorkadjis (Ind.),51.06,35.17250°N 33.36500°E
+Tbilisi,Georgia (country),1171100.0,Kakha Kaladze (GD),504.2,41.72250°N 44.79250°E
+New Delhi,India,257803.0,,42.7,28.6138954°N 77.2090057°E
+Jakarta,Indonesia,10562088.0,Anies Baswedan,664.01,6.200°S 106.817°E
+Tehran,Iran,8693706.0,Alireza Zakani,615.0,35.68917°N 51.38889°E
+Baghdad,Iraq,8126755.0,Alaa Al-Amari,673.0,33.333°N 44.383°E
+Jerusalem,Israel,936425.0,,125156.0,31.783°N 35.217°E
+Tokyo,Japan,14043239.0,Yuriko Koike (TF),2194.07,35.68972°N 139.69222°E
+Amman,Jordan,4302730.0,Noor Alnazer Farah Nabulsi,1680.0,31.94972°N 35.93278°E
+Nur-Sultan,Kazakhstan,1136008.0,,810.2,51.167°N 71.433°E
+Pyongyang,North Korea,2870000.0,,2000.0,39.01944°N 125.73806°E
+Seoul,South Korea,9733509.0,Oh Se-hoon (People's Power),,37.56000°N 126.99000°E
+Kuwait City,Kuwait,3.0,,,29.36972°N 47.97833°E
+Bishkek,Kyrgyzstan,1053915.0,Aibek Dzhunushaliev,169.9,42.87472°N 74.61222°E
+Vientiane,Laos,948477.0,,3920.0,17.967°N 102.600°E
+Beirut,Lebanon,361366.0,Marwan Abboud,19.8,33.88694°N 35.51306°E
+Kuala Lumpur,Malaysia,1790000.0,"Mahadi bin Che Ngah
+",243.0,3.14778°N 101.69528°E
+Malé,Maldives,133412.0,Dr. Mohamed Muiz,1.95,4.17528°N 73.50889°E
+Ulaanbaatar,Mongolia,1466125.0,Dolgorsürengiin Sumyaabazar (MPP),4704.4,47.92028°N 106.91722°E
+Naypyidaw,Myanmar,924608.0,,7054.37,19.74750°N 96.11500°E
+Kathmandu,Nepal,975453.0,Bidya Sundar Shakya (CPN-UML),49.45,27.7172°N 85.3240°E
+"Muscat, Oman",Oman,76344.0,,273.9,23.58889°N 58.40833°E
+Islamabad,Pakistan,1014825.0,Peer Adil Shah Gillani,220.0,33.69306°N 73.06389°E
+Manila,Philippines,1846513.0,Isko Moreno (Aksyon/Asenso Manileño),42.88,14.6°N 120.98°E
+Doha,Qatar,2382000.0,,132.0,25.28667°N 51.53333°E
+Moscow,Russia,12506468.0,Sergey Sobyanin,2561.5,55.75583°N 37.61722°E
+Riyadh,Saudi Arabia,7676654.0,Faisal bin Bandar Al Saud,1973.0,24.633°N 46.717°E
+Singapore,Singapore,5453600.0,,728.6,
+Sri Jayawardenepura Kotte,Sri Lanka,115826.0,I M V Premalal (SLPP),17.0,6.917°N 79.917°E
+Damascus,Syria,2079000.0,,105.0,33.51306°N 36.29194°E
+Dushanbe,Tajikistan,863400.0,Rustam Emomali (People's Democratic Party of Tajikistan),203.1825,38.53667°N 68.78000°E
+Bangkok,Thailand,8305218.0,Aswin Kwanmuang,1568.737,13.75250°N 100.49417°E
+Dili,East Timor,222323.0,,48.27,8.55361°S 125.57833°E
+Ankara,Turkey,5663322.0,Vasip Şahin,24521.0,39.93000°N 32.85000°E
+Ashgabat,Turkmenistan,1031992.0,Ýaztagan Gylyjow,917.6,37.93750°N 58.38000°E
+Abu Dhabi,United Arab Emirates,1450000.0,,972.0,24.467°N 54.367°E
+Tashkent,Uzbekistan,2571668.0,Jahongir Ortiqhojaev,334.8,41.300°N 69.267°E
+Hanoi,Vietnam,8053663.0,,3358.6,21.02833°N 105.85417°E
+Sana'a,Yemen,2545000.0,,126.0,15.34833°N 44.20639°E
+Buenos Aires,Argentina,1.0,Horacio Rodríguez Larreta (PRO),203.0,34.60333°S 58.38167°W
+Sucre,Bolivia,360544.0,Rosario López Rojo de Aparicio,1768.0,19.05000°S 65.25000°W
+Brasília,Brazil,3039444.0,,5802.0,15.79389°S 47.88278°W
+Santiago,Chile,6269384.0,Claudio Orrego Larraín,641.0,33.450°S 70.667°W
+Bogotá,Colombia,7412566.0,Claudia López Hernández(2020–2023),1587.0,4.71111°N 74.07222°W
+Quito,Ecuador,2011388.0,Santiago Guarderas,372.39,0.22000°S 78.51250°W
+"Georgetown, Guyana",Guyana,118363.0,Ubraj Narine,70.0,6.80111°N 58.15528°W
+Asunción,Paraguay,525252.0,,117.0,25.300°S 57.633°W
+Lima,Peru,9751717.0,Jorge Muñoz,2672.3,12.050°S 77.033°W
+Paramaribo,Suriname,240924.0,,182.0,5.85222°N 55.20389°W
+Montevideo,Uruguay,1719453.0,,201.0,34.88361°S 56.18194°W
+Caracas,Venezuela,2245744.0,,433.0,10.48056°N 66.90361°W
+Tirana,Albania,557422.0,Erion Veliaj (PS),1110.03,41.32889°N 19.81778°E
+Andorra la Vella,Andorra,22256.0,,12.0,42.500°N 1.500°E
+Vienna,Austria,1.0,Michael Ludwig (SPÖ),414.78,48.200°N 16.367°E
+Minsk,Belarus,2009786.0,,409.5,53.900°N 27.567°E
+Brussels,Belgium,1208542.0,,162.4,50.850°N 4.350°E
+Sarajevo,Bosnia and Herzegovina,275524.0,Benjamina Karić (SDP BiH),141.5,43.867°N 18.417°E
+Sofia,Bulgaria,1242568.0,Yordanka Fandakova (GERB),492.0,42.70°N 23.33°E
+Zagreb,Croatia,790017.0,Tomislav Tomašević (Možemo!),641.0,45.817°N 15.983°E
+Prague,Czech Republic,1335084.0,Zdeněk Hřib (Pirates),496.0,50.083°N 14.417°E
+Copenhagen,Denmark,799033.0,,179.8,55.67611°N 12.56833°E
+Tallinn,Estonia,437619.0,Mihhail Kõlvart,159.2,59.43722°N 24.74528°E
+Helsinki,Finland,656250.0,Juhana Vartiainen (NCP),715.48,60.17083°N 24.93750°E
+Paris,France,2175601.0,Anne Hidalgo (PS),105.4,48.856613°N 2.352222°E
+Berlin,Germany,3664088.0,Michael Müller (SPD),891.7,52.52000°N 13.40500°E
+Athens,Greece,664046.0,Kostas Bakoyannis (New Democracy),38.964,37.98417°N 23.72806°E
+Budapest,Hungary,1752286.0,Gergely Karácsony (Dialogue),525.2,47.49250°N 19.05139°E
+Reykjavík,Iceland,131136.0,,273.0,64.14667°N 21.94000°W
+Dublin,Republic of Ireland,554554.0,Alison Gilliland (Lab),117.8,53.34972°N 6.26028°W
+Rome,Italy,1.0,Roberto Gualtieri (PD),1285.0,41.883°N 12.500°E
+Riga,Latvia,614618.0,Mārtiņš Staķis,304.03,56.94889°N 24.10639°E
+Vaduz,Liechtenstein,5696.0,Manfred Bischof (FBP),17.3,47.141°N 9.521°E
+Vilnius,Lithuania,588412.0,Remigijus Šimašius,401.0,54.683°N 25.283°E
+Luxembourg City,Luxembourg,124528.0,Lydie Polfer (DP),51.46,49.61167°N 6.13194°E
+Valletta,Malta,5827.0,Alfred Zammit (PL),0.61,35.89833°N 14.51250°E
+Chișinău,Moldova,532513.0,Ion Ceban,123.0,47.02278°N 28.83528°E
+City-state,Monaco,,,,
+Podgorica,Montenegro,150977.0,Ivan Vuković (DPS),108.0,42.4412861°N 19.2628917°E
+Amsterdam,Netherlands,872680.0,Femke Halsema (GL),219.32,52.367°N 4.900°E
+Skopje,North Macedonia,506926.0,Danela Arsovska (Independent),571.46,42.000°N 21.433°E
+Oslo,Norway,697010.0,Marianne Borgen (SV),480.0,59.91389°N 10.75222°E
+Warsaw,Poland,1794166.0,Rafał Trzaskowski (PO),517.24,52.233°N 21.017°E
+Lisbon,Portugal,544851.0,Carlos Moedas,100.05,38.7252668°N 9.1500193°W
+Bucharest,Romania,1883425.0,Nicușor Dan (Ind.),228.0,44.43250°N 26.10389°E
+City of San Marino,San Marino,4071.0,,7.09,43.9346000°N 12.4473000°E
+Belgrade,Serbia,1166763.0,Zoran Radojičić (Ind.),359.9,44.817°N 20.467°E
+Bratislava,Slovakia,440948.0,Matúš Vallo,367.584,48.14389°N 17.10972°E
+Ljubljana,Slovenia,295504.0,Zoran Janković (PS),163.8,46.05556°N 14.50833°E
+Madrid,Spain,3223334.0,José Luis Martínez-Almeida (PP),604.31,40.417°N 3.717°W
+Stockholm,Sweden,975819.0,Anna König Jerlmyr (M),188.0,59.32944°N 18.06861°E
+De jure,Switzerland,,,,
+Kyiv,Ukraine,2962180.0,Vitali Klitschko,839.0,50.45000°N 30.52333°E
+London,United Kingdom,8961989.0,,1572.0,51.50722°N 0.12750°W
+Canberra,Australia,431380.0,,814.2,35.29306°S 149.12694°E
+Palikir,Federated States of Micronesia,6647.0,,,6.91722°N 158.15889°E
+Suva,Fiji,93970.0,,26.24,
+South Tarawa,Kiribati,63439.0,,15.76,1.433°N 173.000°E
+Majuro,Marshall Islands,27797.0,Ladie Jack,,7.083°N 171.383°E
+Yaren District,Nauru,747.0,,1.5,0.5477000°S 166.9208667°E
+Wellington,New Zealand,215900.0,Andy Foster,303.67,41.28889°S 174.77722°E
+Ngerulmud,Palau,271.0,,,7.50056°N 134.62417°E
+Port Moresby,Papua New Guinea,364145.0,Powes Parkop (2007-),240.0,9.47889°S 147.14944°E
+Apia,Samoa,37391.0,,47.8,13.833°S 171.750°W
+Honiara,Solomon Islands,84520.0,Wilson Mamae,22.0,9.43194°S 159.95556°E
+Nukuʻalofa,Tonga,23221.0,,,21.13333°S 175.20000°W
+Funafuti,Tuvalu,6320.0,,2.4,8.517°S 179.200°E
+Port Vila,Vanuatu,51437.0,Erick Puyo Festa,23.6,17.733°S 168.317°E
