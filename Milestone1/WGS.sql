@@ -32,8 +32,8 @@ CREATE TABLE IF NOT EXISTS Country (
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS timezone (
     country_name            VARCHAR(255)    NOT NULL,
-    timezone_name           VARCHAR(255)    NOT NULL,
-    PRIMARY KEY (country_name, timezone_name),
+    timezone           VARCHAR(255)    NOT NULL,
+    PRIMARY KEY (country_name, timezone),
     FOREIGN KEY (country_name) REFERENCES Country (name)
         ON UPDATE CASCADE  ON DELETE CASCADE
 );
@@ -43,8 +43,8 @@ CREATE TABLE IF NOT EXISTS timezone (
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS official_lang (
     country_name            VARCHAR(255)    NOT NULL,
-    language_name           VARCHAR(255)    NOT NULL,
-    PRIMARY KEY (country_name, language_name),
+    official_language           VARCHAR(255)    NOT NULL,
+    PRIMARY KEY (country_name, official_language),
     FOREIGN KEY (country_name) REFERENCES Country (name)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -65,8 +65,8 @@ CREATE TABLE IF NOT EXISTS official_lang (
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS currency (
     country_name            VARCHAR(255)    NOT NULL,
-    currency_name           VARCHAR(255)    NOT NULL,
-    PRIMARY KEY (country_name, currency_name),
+    currency           VARCHAR(255)    NOT NULL,
+    PRIMARY KEY (country_name, currency),
     FOREIGN KEY (country_name) REFERENCES Country (name)
         ON UPDATE CASCADE ON DELETE CASCADE
 );
@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS Capital (
     name                    VARCHAR(255)    NOT NULL,
     country_name            VARCHAR(255)    NOT NULL,
     population              INT UNSIGNED,
-    governer                VARCHAR(255),
+    governor                VARCHAR(255),
     area                    FLOAT,
     coordinates             VARCHAR(255),            
     PRIMARY KEY (name),

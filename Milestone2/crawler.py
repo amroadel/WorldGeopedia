@@ -347,6 +347,9 @@ class Country:
     def get_president_url(self):
         return self.president_url
 
+    def get_name(self):
+        return self.name
+
     # Getters for multi-valued attr
     def get_timezone(self):
         return self.timezone
@@ -517,33 +520,34 @@ def main():
             country_data = Country(country['Name'], country['Continent'], country['URL'])
             country_data.parse_country_data()
             countries.append(country_data.get_single_valued_attr())
+            country_name = country_data.get_name()
             
 
             official_langs = country_data.get_official_lang()
             for lang in official_langs:
-                official_languages.append({'country_name':country['Name'], 'official_language':lang})
+                official_languages.append({'country_name':country_name, 'official_language':lang})
 
             curr = country_data.get_currency()
             for c in curr:
-                currencies.append({'country_name':country['Name'], 'currency':c})
+                currencies.append({'country_name':country_name, 'currency':c})
 
             tzones = country_data.get_timezone()
             for zone in tzones:
-                timezones.append({'country_name':country['Name'], 'timezone':zone})        
+                timezones.append({'country_name':country_name, 'timezone':zone})        
 
             capital_name = country_data.get_capital_name()
             capital_url = country_data.get_capital_url()
-            capital_data = Capital(capital_name, capital_url, country['Name'])
+            capital_data = Capital(capital_name, capital_url, country_name)
             capital_data.parse_capital_data()
             capitals.append(capital_data.get_parsed_attr())
 
             president_name = country_data.get_president_name()
             president_url = country_data.get_president_url()
-            president_data = President(president_name, president_url, country['Name'])
+            president_data = President(president_name, president_url, country_name)
             president_data.parse_president_data()
             presidents.append(president_data.get_parsed_attr())
         except Exception as e:
-            print('Problem with:', country['Name'], ' index:', index)
+            print('Problem with:', country_name, ' index:', index)
             print(e)
 
         # if index == 10:

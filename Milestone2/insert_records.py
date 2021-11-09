@@ -19,7 +19,7 @@ except Exception as e:
     print(e) 
 #%%
 # Read CSV files into dataframes
-capitals = pd.read_csv('data/capitals.csv', ',')
+capitals = pd.read_csv('data/capitals.csv', ',') 
 currencies = pd.read_csv('data/currencies.csv', ',')
 official_languages = pd.read_csv('data/official_languages.csv', ',')
 presidents = pd.read_csv('data/presidents.csv', ',')
@@ -27,8 +27,10 @@ timezones = pd.read_csv('data/timezones.csv', ',')
 countries = pd.read_csv('data/countries.csv', ',')
 countries['covid_cases'] = 0
 countries['vaccines'] = 0
+
+# countries['name'] = capitals['country_name']
 #%%
-# Truncate tables to avoid adding duplicates
+# Truncate tables to avoid adding duplicate data
 truncate = True
 if truncate:
 
@@ -46,7 +48,8 @@ if truncate:
 
     truncate_timezone = "TRUNCATE TABLE `timezone`"
     cursor.execute(truncate_timezone)
-
+    
+    # These setters are important to be able to truncate the country table
     setter1 = 'SET FOREIGN_KEY_CHECKS = 0'
     cursor.execute(setter1)
     
@@ -58,33 +61,8 @@ if truncate:
 
 #%%
 countries.to_sql(name='Country', con= engine, if_exists= 'append', index= False )
-capitals.to_sql(name='Capital', con= connection, if_exists= 'append', index= False )
-currencies.to_sql(name='currency', con= connection, if_exists= 'append', index= False )
-official_languages.to_sql(name='official_lang', con= connection, if_exists= 'append', index= False )
-timezones.to_sql(name='timezone', con= connection, if_exists= 'append', index= False )
-presidents.to_sql(name='President', con= connection, if_exists= 'append', index= False )
-#%%
-# Fetch all the records
-# result = cursor.fetchall()
-# j = 0
-# for i in result:
-#     print(j)
-#     print(i)
-#     j = j + 1
-#%%
-
-# engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
-# 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
-# #%%
-# countries = pd.read_csv('data/countries.csv', ',')
-# countries['covid_cases'] = 0
-# countries['vaccines'] = 0
-
-# # capitals = pd.read_csv('data/capitals.csv', ',')
-# # currencies = pd.read_csv('data/currencies.csv', ',')
-# # official_languages = pd.read_csv('data/official_languages.csv', ',')
-# # presidents = pd.read_csv('data/presidents.csv', ',')
-# # timezones = pd.read_csv('data/timezones.csv', ',')
-# # %%
-# countries.to_sql(name='Country', con= engine, if_exists= 'append', index= False )
-# # %%
+capitals.to_sql(name='Capital', con= engine, if_exists= 'append', index= False )
+currencies.to_sql(name='currency', con= engine, if_exists= 'append', index= False )
+official_languages.to_sql(name='official_lang', con= engine, if_exists= 'append', index= False )
+timezones.to_sql(name='timezone', con= engine, if_exists= 'append', index= False )
+presidents.to_sql(name='President', con= engine, if_exists= 'append', index= False )
