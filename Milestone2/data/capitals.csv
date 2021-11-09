@@ -80,7 +80,7 @@ Kabul,Afghanistan,4601789.0,Hamdullah Nomani,1028.24,34.52528°N 69.17833°E
 Yerevan,Armenia,1060138.0,Hayk Marutyan,223.0,40.18139°N 44.51444°E
 Baku,Azerbaijan,2293100.0,Eldar Azizov,2140.0,40.39528°N 49.88222°E
 Manama,Bahrain,200000.0,Hamad bin Isa Al Khalifa,30.0,26.22500°N 50.57750°E
-Dhaka,Bangladesh,1.0,Atiqul Islam,306.0,23.76389°N 90.38889°E
+Dhaka,Bangladesh,8906039.0,Atiqul Islam,306.0,23.76389°N 90.38889°E
 Thimphu,Bhutan,114551.0,,26.1,27.47222°N 89.63611°E
 Bandar Seri Begawan,Brunei,100700.0,,100.36,4.89028°N 114.94222°E
 Phnom Penh,Cambodia,2281951.0,Khuong Sreng (CPP),679.0,11.56944°N 104.92111°E
@@ -125,7 +125,7 @@ Abu Dhabi,United Arab Emirates,1450000.0,,972.0,24.467°N 54.367°E
 Tashkent,Uzbekistan,2571668.0,Jahongir Ortiqhojaev,334.8,41.300°N 69.267°E
 Hanoi,Vietnam,8053663.0,,3358.6,21.02833°N 105.85417°E
 Sana'a,Yemen,2545000.0,,126.0,15.34833°N 44.20639°E
-Buenos Aires,Argentina,1.0,Horacio Rodríguez Larreta (PRO),203.0,34.60333°S 58.38167°W
+Buenos Aires,Argentina,2891082.0,Horacio Rodríguez Larreta (PRO),203.0,34.60333°S 58.38167°W
 Sucre,Bolivia,360544.0,Rosario López Rojo de Aparicio,1768.0,19.05000°S 65.25000°W
 Brasília,Brazil,3039444.0,,5802.0,15.79389°S 47.88278°W
 Santiago,Chile,6269384.0,Claudio Orrego Larraín,641.0,33.450°S 70.667°W
@@ -139,7 +139,7 @@ Montevideo,Uruguay,1719453.0,,201.0,34.88361°S 56.18194°W
 Caracas,Venezuela,2245744.0,,433.0,10.48056°N 66.90361°W
 Tirana,Albania,557422.0,Erion Veliaj (PS),1110.03,41.32889°N 19.81778°E
 Andorra la Vella,Andorra,22256.0,,12.0,42.500°N 1.500°E
-Vienna,Austria,1.0,Michael Ludwig (SPÖ),414.78,48.200°N 16.367°E
+Vienna,Austria,1911191.0,Michael Ludwig (SPÖ),414.78,48.200°N 16.367°E
 Minsk,Belarus,2009786.0,,409.5,53.900°N 27.567°E
 Brussels,Belgium,1208542.0,,162.4,50.850°N 4.350°E
 Sarajevo,Bosnia and Herzegovina,275524.0,Benjamina Karić (SDP BiH),141.5,43.867°N 18.417°E
@@ -155,7 +155,7 @@ Athens,Greece,664046.0,Kostas Bakoyannis (New Democracy),38.964,37.98417°N 23.7
 Budapest,Hungary,1752286.0,Gergely Karácsony (Dialogue),525.2,47.49250°N 19.05139°E
 Reykjavík,Iceland,131136.0,,273.0,64.14667°N 21.94000°W
 Dublin,Republic of Ireland,554554.0,Alison Gilliland (Lab),117.8,53.34972°N 6.26028°W
-Rome,Italy,1.0,Roberto Gualtieri (PD),1285.0,41.883°N 12.500°E
+Rome,Italy,2860009.0,Roberto Gualtieri (PD),1285.0,41.883°N 12.500°E
 Riga,Latvia,614618.0,Mārtiņš Staķis,304.03,56.94889°N 24.10639°E
 Vaduz,Liechtenstein,5696.0,Manfred Bischof (FBP),17.3,47.141°N 9.521°E
 Vilnius,Lithuania,588412.0,Remigijus Šimašius,401.0,54.683°N 25.283°E

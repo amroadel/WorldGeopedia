@@ -88,6 +88,15 @@ class Country:
         if gov_type:
             gov_type = gov_type.text.strip(' ')
 
+        p = table_rows.select_one('tr:-soup-contains("Population rank")')
+        if p: p.decompose()
+
+        d = table_rows.select_one('tr:-soup-contains("Density")')
+        if d: d.decompose()
+
+        r = table_rows.select_one('tr:-soup-contains("Rank")')
+        if r: r.decompose()
+
         population = table_rows.select_one('th:-soup-contains("Population") + td')
         if not population:
             try:
@@ -369,6 +378,9 @@ class Capital:
 
         d = table_rows.select_one('tr:-soup-contains("Density")')
         if d: d.decompose()
+
+        r = table_rows.select_one('tr:-soup-contains("Rank")')
+        if r: r.decompose()
 
         # Parse population
         population = table_rows.select_one('th:-soup-contains("Population") + td')
