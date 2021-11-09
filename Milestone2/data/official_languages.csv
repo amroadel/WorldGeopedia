@@ -1,22 +1,30 @@
 ﻿country_name,official_language
 Algeria,Arabic
+Algeria,Berber
 Angola,Portuguese
 Benin,French
 Botswana,Setswana
+Botswana,English
 Burkina Faso,French
 Burundi,Kirundi
 Cameroon,French
+Cameroon,English
 Cape Verde,Portuguese
 Central African Republic,French
+Central African Republic,Sango
 Chad,Arabic
 Comoros,Comorian
 Democratic Republic of the Congo,French
 Republic of the Congo,French
 Djibouti,French
+Djibouti,Arabic
 Egypt,Arabic
 Equatorial Guinea,Spanish
+Equatorial Guinea,Portuguese
+Equatorial Guinea,French
 Eritrea,None (see working languages)
 Eswatini,Swazi
+Eswatini,English
 Ethiopia,Afar
 Gabon,French
 The Gambia,English
@@ -25,39 +33,93 @@ Guinea,French
 Guinea-Bissau,Portuguese
 Ivory Coast,French
 Kenya,English
+Kenya,Swahili
 Lesotho,Sesotho
+Lesotho,English
 Liberia,English
 Libya,Arabic
 Madagascar,Malagasy
+Madagascar,French
 Malawi,English
 Mali,French
 Mauritania,Arabic
 Mauritius,de jure
 Morocco,Arabic
+Morocco,Berber
 Mozambique,Portuguese
 Namibia,English
 Niger,French
 Nigeria,English
 Rwanda,Kinyarwanda
+Rwanda,French
+Rwanda,English
+Rwanda,Swahili
 Sao Tome and Principe,Portuguese
 Senegal,French
 Seychelles,English
+Seychelles,French
+Seychelles,Seychellois Creole
 Sierra Leone,English
 Somalia,Somali
+Somalia,Arabic
 South Africa,English
+South Africa,Zulu
+South Africa,Xhosa
+South Africa,Afrikaans
+South Africa,Sepedi
+South Africa,Setswana
+South Africa,Sesotho
+South Africa,Xitsonga
+South Africa,Swazi
+South Africa,Tshivenda
+South Africa,isiNdebele
+South Africa,Khoi languages
+South Africa,Nama
+South Africa,San languages
+South Africa,South African Sign Language
+South Africa,German
+South Africa,Greek
+South Africa,Gujarati
+South Africa,Hindi
+South Africa,Portuguese
+South Africa,Telugu
+South Africa,Tamil
+South Africa,Urdu
+South Africa,Arabic
+South Africa,Hebrew
+South Africa,Sanskrit
 South Sudan,English
 Sudan,Arabic
+Sudan,English
 Tanzania,Swahili
+Tanzania,English
 Togo,French
 Tunisia,Arabic
 Uganda,English
+Uganda,Swahili
 Zambia,English
 Zimbabwe,Chewa
+Zimbabwe,Chibarwe
+Zimbabwe,English
+Zimbabwe,Kalanga
+Zimbabwe,Koisan
+Zimbabwe,Nambya
+Zimbabwe,Ndau
+Zimbabwe,Ndebele
+Zimbabwe,Shangani
+Zimbabwe,Shona
+Zimbabwe,sign language
+Zimbabwe,Sotho
+Zimbabwe,Tonga
+Zimbabwe,Tswana
+Zimbabwe,Venda
+Zimbabwe,Xhosa
 Antigua and Barbuda,English
 The Bahamas,English
 Barbados,English
 Belize,"English, Spanish"
 Canada,English
+Canada,French
 Costa Rica,Spanish
 Cuba,Spanish
 Dominica,English
@@ -66,6 +128,7 @@ El Salvador,Spanish
 Grenada,English
 Guatemala,Spanish
 Haiti,French
+Haiti,Haitian Creole
 Honduras,Spanish
 Jamaica,English
 Mexico,federal level
@@ -77,6 +140,7 @@ Saint Vincent and the Grenadines,English
 Trinidad and Tobago,English
 United States,None at the federal level
 Afghanistan,Pashto
+Afghanistan,Dari Persian
 Armenia,Armenian
 Azerbaijan,Azerbaijani
 Bahrain,Arabic
@@ -86,11 +150,14 @@ Brunei,Malay
 Cambodia,Khmer
 China,Standard Chinese
 Cyprus,Greek
+Cyprus,Turkish
 Georgia (country),Georgian
 India,Hindi
+India,English
 Indonesia,Indonesian
 Iran,Persian
 Iraq,Arabic
+Iraq,Kurdish
 Israel,Hebrew
 Japan,Japanese
 Jordan,Arabic
@@ -99,6 +166,7 @@ North Korea,Korean
 South Korea,Korean
 Kuwait,Arabic
 Kyrgyzstan,Kyrgyz
+Kyrgyzstan,Russian
 Laos,Lao
 Lebanon,Arabic
 Malaysia,Malay
@@ -108,31 +176,46 @@ Myanmar,Burmese
 Nepal,Nepali
 Oman,Arabic
 Pakistan,Urdu
+Pakistan,English
 Philippines,Filipino
+Philippines,English
 Qatar,Arabic
 Russia,Russian
 Saudi Arabia,Arabic
 Singapore,English
+Singapore,Malay
+Singapore,Mandarin
+Singapore,Tamil
 Sri Lanka,Sinhala
 Syria,Arabic
 Tajikistan,Tajik
 Thailand,Thai
 East Timor,Portuguese
+East Timor,Tetum
 Turkey,Turkish
 Turkmenistan,Turkmen
 United Arab Emirates,Arabic
 Uzbekistan,Uzbek
+Uzbekistan,Russian
 Vietnam,Vietnamese
 Yemen,Arabic
 Argentina,Spanish
 Bolivia,Spanish
+Bolivia,Quechua
+Bolivia,Aymara
+Bolivia,Guarani
+Bolivia,and 33 others (all Indigenous languages)
 Brazil,Portuguese
 Chile,Spanish
 Colombia,Spanish
 Ecuador,Spanish
 Guyana,English
 Paraguay,Spanish
+Paraguay,Guarani
 Peru,Spanish
+Peru,Quechua
+Peru,Aymara
+Peru,Other Indigenous languages
 Suriname,Dutch
 Uruguay,Spanish
 Venezuela,Spanish
@@ -140,7 +223,10 @@ Albania,Albanian
 Andorra,Catalan
 Austria,German
 Belarus,Belarusian
+Belarus,Russian
 Belgium,Dutch
+Belgium,French
+Belgium,German
 Bosnia and Herzegovina,None
 Bulgaria,Bulgarian
 Croatia,Croatian
@@ -148,6 +234,7 @@ Czech Republic,Czech
 Denmark,Danish
 Estonia,Estonian
 Finland,Finnish
+Finland,Swedish
 France,French
 Germany,German
 Greece,Greek
@@ -165,7 +252,9 @@ Monaco,French
 Montenegro,Montenegrin
 Netherlands,Dutch
 North Macedonia,Macedonian
+North Macedonia,Albanian
 Norway,Norwegian
+Norway,Sámi
 Poland,Polish
 Portugal,Portuguese
 Romania,Romanian
@@ -176,19 +265,35 @@ Slovenia,Slovene
 Spain,Spanish
 Sweden,Swedish
 Switzerland,German
+Switzerland,French
+Switzerland,Italian
 Ukraine,Ukrainian
 United Kingdom,English
 Australia,federal level
 Federated States of Micronesia,English
 Fiji,Fijian
+Fiji,English
+Fiji,Fiji Hindi
 Kiribati,Gilbertese
 Marshall Islands,Marshallese
+Marshall Islands,English
 Nauru,Nauruan
 New Zealand,English
+New Zealand,Māori
+New Zealand,NZ Sign Language
 Palau,Palauan
+Palau,English
+Palau,Japanese
+Palau,Sonsorolese
+Palau,Tobian
 Papua New Guinea,English
+Papua New Guinea,Hiri Motu
+Papua New Guinea,PNG Sign Language
+Papua New Guinea,Tok Pisin
 Samoa,Samoan
+Samoa,English
 Solomon Islands,English
 Tonga,Tongan
 Tuvalu,Tuvaluan
+Tuvalu,English
 Vanuatu,Bislama

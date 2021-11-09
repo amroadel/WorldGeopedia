@@ -71,6 +71,9 @@ class Country:
 
         for img in table_rows.find_all("a", {'class':'image'}): 
             img.decompose()
+        
+        for style in table_rows.find_all("style", {}): 
+            style.decompose()
 
         country_name = table_rows.find('div', {'class':'fn org country-name'})
         if country_name:
@@ -231,6 +234,7 @@ class Country:
             for i in range(len(legislature)):
                 if legislature[i].text != '':
                     legislature = legislature[i].text.strip('( )')
+                    legislature = legislature.replace('\n', ' ')
                     break
         if not legislature or legislature == ' ':
             legislature = None
@@ -242,8 +246,11 @@ class Country:
             currency = []
             for i in range(len(currency_)):
                 a_li = currency_[i].find('a', title=True)
-                currency.append(a_li.text.strip(' '))
-                break
+                if a_li:
+                    currency.append(a_li.text.strip(' '))
+                else: 
+                    currency.append(currency_[i].text.strip(' '))
+                # break
         else:
             currency = []
             currency_ = table_rows.select_one('th:-soup-contains("Currency") + td')
@@ -262,7 +269,7 @@ class Country:
                 a_li = languages_[i].find('a', title=True)
                 if a_li:
                     official_lang.append(a_li.text.strip(' '))
-                    break
+                    # break
                 # elif languages_: 
                 #     official_lang.append(languages_.text.strip(' '))
         else:
@@ -326,7 +333,6 @@ class Country:
                 'gini_index':self.gini_index,
                 'hdi':self.hdi,
                 'legislature':self.legislature}
-    
 
     # Getters
     def get_capital_name(self):
@@ -547,6 +553,7 @@ def main():
     countries_info.to_csv("countries_urls.csv", sep=',', encoding='utf-8', index=False)
 
     countries = pd.DataFrame.from_records(countries)
+    countries = countries.drop(columns=['capital', 'president'])
     countries.to_csv("data/countries.csv", sep=',', encoding='utf-8-sig', index=False)
 
     capitals= pd.DataFrame.from_records(capitals)

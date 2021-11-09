@@ -1,18 +1,21 @@
 -- Schema WGS
 -- -----------------------------------------------------
+DROP SCHEMA IF EXISTS `WGS`;
 CREATE SCHEMA IF NOT EXISTS `WGS`;
 USE `WGS` ;
 
 -- -----------------------------------------------------
 -- Table `WGS`.`Country`
 -- -----------------------------------------------------
+ 
 CREATE TABLE IF NOT EXISTS Country (
     name                    VARCHAR(255)    NOT NULL,
     calling_code            VARCHAR(255),
     driving_side            CHAR(1),         
-    gov_type                CHAR(1),        COMMENT '(P))resident or (M)onarch'
+    gov_type                VARCHAR(255),
     continent               VARCHAR(255)    NOT NULL,
-    population              INT,
+    legislature             VARCHAR(255),
+    population              INT UNSIGNED,
     area                    FLOAT,
     water_percentage        FLOAT,           
     gdp_pp                  FLOAT,
@@ -20,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Country (
     gini_index              FLOAT,
     hdi                     FLOAT,
     covid_cases             INT,
-    vaccines                INT,
+    vaccines                INT UNSIGNED,
     PRIMARY KEY (name)
 );
 
@@ -32,7 +35,7 @@ CREATE TABLE IF NOT EXISTS timezone (
     timezone_name           VARCHAR(255)    NOT NULL,
     PRIMARY KEY (country_name, timezone_name),
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE  
+        ON UPDATE CASCADE  ON DELETE CASCADE
 );
 
 -- -----------------------------------------------------
@@ -43,19 +46,19 @@ CREATE TABLE IF NOT EXISTS official_lang (
     language_name           VARCHAR(255)    NOT NULL,
     PRIMARY KEY (country_name, language_name),
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- -----------------------------------------------------
 -- Table `WGS`.`legislature`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS legislature (
-    country_name            VARCHAR(255)    NOT NULL,
-    legislature_name        VARCHAR(255)    NOT NULL,
-    PRIMARY KEY (country_name, legislature_name),
-    FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
-);
+-- -- -----------------------------------------------------
+-- CREATE TABLE IF NOT EXISTS legislature (
+--     country_name            VARCHAR(255)    NOT NULL,
+--     legislature_name        VARCHAR(255)    NOT NULL,
+--     PRIMARY KEY (country_name, legislature_name),
+--     FOREIGN KEY (country_name) REFERENCES Country (name)
+--         ON UPDATE CASCADE
+-- );
 
 -- -----------------------------------------------------
 -- Table `WGS`.`currency`
@@ -65,21 +68,22 @@ CREATE TABLE IF NOT EXISTS currency (
     currency_name           VARCHAR(255)    NOT NULL,
     PRIMARY KEY (country_name, currency_name),
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- -----------------------------------------------------
 -- Table `WGS`.`President`
 -- -----------------------------------------------------
+-- DROP TABLE IF EXISTS President; 
 CREATE TABLE IF NOT EXISTS President (
     country_name            VARCHAR(255)    NOT NULL,
     name                    VARCHAR(255)    NOT NULL,
     birthdate               DATE,
     political_party         VARCHAR(255),
-    assumed_office          DATE            NOT NULL,            
+    assumed_office          VARCHAR(255),            
     PRIMARY KEY (country_name, name),
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- -----------------------------------------------------
@@ -88,13 +92,13 @@ CREATE TABLE IF NOT EXISTS President (
 CREATE TABLE IF NOT EXISTS Capital (
     name                    VARCHAR(255)    NOT NULL,
     country_name            VARCHAR(255)    NOT NULL,
-    population              INT,
+    population              INT UNSIGNED,
     governer                VARCHAR(255),
-    area                    FLOAT           NOT NULL,
+    area                    FLOAT,
     coordinates             VARCHAR(255),            
     PRIMARY KEY (name),
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 -- -----------------------------------------------------
@@ -129,5 +133,5 @@ CREATE TABLE IF NOT EXISTS User_review (
     FOREIGN KEY (username) REFERENCES User (username)
         ON UPDATE CASCADE,
     FOREIGN KEY (country_name) REFERENCES Country (name)
-        ON UPDATE CASCADE
+        ON UPDATE CASCADE ON DELETE CASCADE
 );

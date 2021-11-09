@@ -17,6 +17,7 @@ Egypt,Egyptian pound
 Equatorial Guinea,Central African CFA franc
 Eritrea,Nakfa
 Eswatini,Lilangeni
+Eswatini,South African rand
 Ethiopia,Birr
 Gabon,Central African CFA franc
 The Gambia,Dalasi
@@ -63,6 +64,7 @@ Cuba,Cuban peso
 Dominica,East Caribbean dollar
 Dominican Republic,Dominican peso
 El Salvador,United States dollar
+El Salvador,Bitcoin
 Grenada,East Caribbean dollar
 Guatemala,Quetzal
 Haiti,Gourde
@@ -71,6 +73,7 @@ Jamaica,Jamaican dollar
 Mexico,Mexican peso
 Nicaragua,Córdoba
 Panama,Balboa
+Panama,United States dollar
 Saint Kitts and Nevis,East Caribbean dollar
 Saint Lucia,East Caribbean dollar
 Saint Vincent and the Grenadines,East Caribbean dollar
@@ -103,6 +106,7 @@ Laos,Kip
 Lebanon,Lebanese pound
 Malaysia,Ringgit
 Maldives,Maldivian rufiyaa
+Maldives,United States dollar
 Mongolia,Tögrög
 Myanmar,Kyat
 Nepal,Nepalese rupee
@@ -149,6 +153,7 @@ Denmark,Danish krone
 Estonia,Euro
 Finland,Euro
 France,Euro
+France,CFP franc
 Germany,Euro
 Greece,Euro
 Hungary,Forint
@@ -164,6 +169,7 @@ Moldova,Moldovan leu
 Monaco,Euro
 Montenegro,Euro
 Netherlands,Euro
+Netherlands,US dollar
 North Macedonia,Macedonian denar
 Norway,Norwegian krone
 Poland,Złoty
@@ -191,4 +197,5 @@ Samoa,Tālā
 Solomon Islands,Solomon Islands dollar
 Tonga,Paʻanga
 Tuvalu,Tuvaluan dollar
+Tuvalu,Australian dollar
 Vanuatu,Vatu
