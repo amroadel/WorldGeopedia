@@ -2,9 +2,6 @@
 *.mwb
 *.bak
 *.rar
+*.zip
 *.drawio
-play.py
-covid.py
-president.py
-capital.py
 *.html
