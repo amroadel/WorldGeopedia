@@ -1,0 +1,1054 @@
+[
+  {
+    "country_name": "Antigua and Barbuda",
+    "timezone": "UTC-4 (AST)"
+  },
+  {
+    "country_name": "Arab Republic of Egypt",
+    "timezone": "UTC+2 (EGY)"
+  },
+  {
+    "country_name": "Argentine Republic",
+    "timezone": "UTC−3 (ART)"
+  },
+  {
+    "country_name": "Barbados",
+    "timezone": "UTC−4 (AST)"
+  },
+  {
+    "country_name": "Belize",
+    "timezone": "UTC-6 (CST (GMT-6))"
+  },
+  {
+    "country_name": "Bolivarian Republic of Venezuela",
+    "timezone": "UTC−4 (VET)"
+  },
+  {
+    "country_name": "Bosnia and Herzegovina",
+    "timezone": "UTC+01 (CET)"
+  },
+  {
+    "country_name": "Bosnia and Herzegovina",
+    "timezone": "UTC+02 (CEST)"
+  },
+  {
+    "country_name": "Burkina Faso",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Canada",
+    "timezone": "UTC−2.5 to −7"
+  },
+  {
+    "country_name": "Canada",
+    "timezone": "UTC−3.5 to −8"
+  },
+  {
+    "country_name": "Central African Republic",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Co-operative Republic of Guyana",
+    "timezone": "UTC-4 (AST)"
+  },
+  {
+    "country_name": "Commonwealth of Australia",
+    "timezone": "UTC+8; +9.5; +10 (Various)"
+  },
+  {
+    "country_name": "Commonwealth of Australia",
+    "timezone": "UTC+8; +9.5; +10; +10.5; +11 (Various)"
+  },
+  {
+    "country_name": "Commonwealth of Dominica",
+    "timezone": "UTC–4 (AST)"
+  },
+  {
+    "country_name": "Commonwealth of The Bahamas",
+    "timezone": "UTC−4 (EDT)"
+  },
+  {
+    "country_name": "Commonwealth of The Bahamas",
+    "timezone": "UTC−5 (EST)"
+  },
+  {
+    "country_name": "Czech Republic",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Czech Republic",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Democratic People'sRepublic of Korea",
+    "timezone": "UTC+9 (Pyongyang Time)"
+  },
+  {
+    "country_name": "Democratic Republic of the Congo",
+    "timezone": "UTC+1 to +2 (WAT and CAT)"
+  },
+  {
+    "country_name": "Democratic Republic ofSão Tomé and Príncipe",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Democratic Republic ofTimor-Leste",
+    "timezone": "UTC+9 (TLT)"
+  },
+  {
+    "country_name": "Democratic Socialist Republic of Sri Lanka",
+    "timezone": "UTC+5:30 (SLST)"
+  },
+  {
+    "country_name": "Denmark",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Denmark",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Dominican Republic",
+    "timezone": "UTC  – 4:00 (Atlantic Standard Time)"
+  },
+  {
+    "country_name": "Federal Democratic Republic of Ethiopia",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Federal Democratic Republic of Nepal",
+    "timezone": "UTC+05:45 (Nepal Standard Time)"
+  },
+  {
+    "country_name": "Federal Republic of Germany",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Federal Republic of Germany",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Federal Republic of Nigeria",
+    "timezone": "UTC+01:00 (WAT)"
+  },
+  {
+    "country_name": "Federal Republic of Somalia",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Federated States of Micronesia",
+    "timezone": "not observed"
+  },
+  {
+    "country_name": "Federated States of Micronesia",
+    "timezone": "UTC+10 and +11"
+  },
+  {
+    "country_name": "Federation of Saint Christopher and Nevis",
+    "timezone": "UTC-4 (AST)"
+  },
+  {
+    "country_name": "Federative Republic of Brazil",
+    "timezone": "UTC−2 to −5 (BRT)"
+  },
+  {
+    "country_name": "French Republic",
+    "timezone": "UTC+1 (Central European Time)"
+  },
+  {
+    "country_name": "French Republic",
+    "timezone": "UTC+2 (Central European Summer Time)"
+  },
+  {
+    "country_name": "Gabonese Republic",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Georgia",
+    "timezone": "UTC+4 (Georgia Time GET)"
+  },
+  {
+    "country_name": "Grand Duchy of Luxembourg",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Grand Duchy of Luxembourg",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Grenada",
+    "timezone": "UTC−4 (AST)"
+  },
+  {
+    "country_name": "Hashemite Kingdom of Jordan",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Hashemite Kingdom of Jordan",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Hellenic Republic",
+    "timezone": "UTC+02:00 (EET)"
+  },
+  {
+    "country_name": "Hellenic Republic",
+    "timezone": "UTC+03:00 (EEST)"
+  },
+  {
+    "country_name": "Hungary",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Hungary",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Iceland",
+    "timezone": "UTC (GMT/WET)"
+  },
+  {
+    "country_name": "Independent State of Papua New Guinea",
+    "timezone": " +11 (AEST)"
+  },
+  {
+    "country_name": "Independent State of Papua New Guinea",
+    "timezone": "UTC+10"
+  },
+  {
+    "country_name": "Independent State of Samoa",
+    "timezone": "UTC+13c (WST)"
+  },
+  {
+    "country_name": "Ireland",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Ireland",
+    "timezone": "UTC+1 (IST)"
+  },
+  {
+    "country_name": "Islamic Emirate of Afghanistan",
+    "timezone": "UTC+4:30Solar Calendar (D†)"
+  },
+  {
+    "country_name": "Islamic Republic of Iran",
+    "timezone": "UTC+3:30 (IRST)"
+  },
+  {
+    "country_name": "Islamic Republic of Iran",
+    "timezone": "UTC+4:30 (IRDT)"
+  },
+  {
+    "country_name": "Islamic Republic of Mauritania",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Islamic Republic of Pakistan",
+    "timezone": "UTC+05:00 (PKT)"
+  },
+  {
+    "country_name": "Italian Republic",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Italian Republic",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Jamaica",
+    "timezone": "UTC-5"
+  },
+  {
+    "country_name": "Japan",
+    "timezone": "UTC+09:00 (JST)"
+  },
+  {
+    "country_name": "Kingdom of Bahrain",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "Kingdom of Belgium",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Kingdom of Belgium",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Kingdom of Bhutan",
+    "timezone": "UTC+06 (BTT)"
+  },
+  {
+    "country_name": "Kingdom of Cambodia",
+    "timezone": "UTC+7 (ICT)"
+  },
+  {
+    "country_name": "Kingdom of Eswatini",
+    "timezone": "UTC+2 (SAST)"
+  },
+  {
+    "country_name": "Kingdom of Lesotho",
+    "timezone": "UTC+2 (South African Standard Time)"
+  },
+  {
+    "country_name": "Kingdom of Morocco",
+    "timezone": "UTC+1"
+  },
+  {
+    "country_name": "Kingdom of Norway",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Kingdom of Norway",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Kingdom of Saudi Arabia",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "Kingdom of Spain",
+    "timezone": "UTC+1 to +2 (WEST and CEST)"
+  },
+  {
+    "country_name": "Kingdom of Spain",
+    "timezone": "UTC⁠±0 to +1 (WET and CET)"
+  },
+  {
+    "country_name": "Kingdom of Sweden",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Kingdom of Sweden",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Kingdom of Thailand",
+    "timezone": "UTC+7 (ICT)"
+  },
+  {
+    "country_name": "Kingdom of Tonga",
+    "timezone": "UTC+13"
+  },
+  {
+    "country_name": "Kyrgyz Republic",
+    "timezone": "UTC+6 (KGT)"
+  },
+  {
+    "country_name": "Lao People's Democratic Republic",
+    "timezone": "UTC+7 (ICT)"
+  },
+  {
+    "country_name": "Lebanese Republic",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Lebanese Republic",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Malaysia",
+    "timezone": "UTC+8 (MST)"
+  },
+  {
+    "country_name": "Mongolia",
+    "timezone": "UTC+7/+8"
+  },
+  {
+    "country_name": "Mongolia",
+    "timezone": "UTC+8/+9"
+  },
+  {
+    "country_name": "Montenegro",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Montenegro",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Nation of Brunei, the Abode of Peace",
+    "timezone": "UTC+8 (Brunei Darussalam Time)"
+  },
+  {
+    "country_name": "Netherlands",
+    "timezone": "UTC+1 (CET)UTC−4 (AST)"
+  },
+  {
+    "country_name": "Netherlands",
+    "timezone": "UTC+2 (CEST)UTC−4 (AST)"
+  },
+  {
+    "country_name": "New Zealand",
+    "timezone": "UTC+12 (NZST)"
+  },
+  {
+    "country_name": "New Zealand",
+    "timezone": "UTC+13 (NZDT)"
+  },
+  {
+    "country_name": "Oriental Republic of Uruguay",
+    "timezone": "UTC−3 (UYT)"
+  },
+  {
+    "country_name": "People's Democratic Republic of Algeria",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "People's Republic of Bangladesh",
+    "timezone": "UTC+6 (BST)"
+  },
+  {
+    "country_name": "People's Republic of China",
+    "timezone": "UTC+8 (China Standard Time)"
+  },
+  {
+    "country_name": "Plurinational State of Bolivia",
+    "timezone": "UTC−4 (BOT)"
+  },
+  {
+    "country_name": "Portuguese Republic",
+    "timezone": "UTC  (WET) UTC−1 (Atlantic/Azores)"
+  },
+  {
+    "country_name": "Portuguese Republic",
+    "timezone": "UTC+1 (WEST) UTC (Atlantic/Azores)"
+  },
+  {
+    "country_name": "Principality of Andorra",
+    "timezone": "UTC+01 (CET)"
+  },
+  {
+    "country_name": "Principality of Andorra",
+    "timezone": "UTC+02 (CEST)"
+  },
+  {
+    "country_name": "Principality of Liechtenstein",
+    "timezone": "UTC+01:00 (CET)"
+  },
+  {
+    "country_name": "Principality of Liechtenstein",
+    "timezone": "UTC+02:00 (CEST)"
+  },
+  {
+    "country_name": "Principality of Monaco",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Principality of Monaco",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Albania",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Albania",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Angola",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of Armenia",
+    "timezone": "UTC+4 (AMT)"
+  },
+  {
+    "country_name": "Republic of Austria",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Austria",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Azerbaijan",
+    "timezone": "UTC+4 (AZT)"
+  },
+  {
+    "country_name": "Republic of Belarus",
+    "timezone": "UTC+3 (MSK)"
+  },
+  {
+    "country_name": "Republic of Benin",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of Botswana",
+    "timezone": "Central Africa Time (GMT+2)"
+  },
+  {
+    "country_name": "Republic of Bulgaria",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Bulgaria",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Burundi",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of Cabo Verde",
+    "timezone": "UTC–1 (CVT)"
+  },
+  {
+    "country_name": "Republic of Cabo Verde",
+    "timezone": "UTC–1 (not observed)"
+  },
+  {
+    "country_name": "Republic of Cameroon",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of Chad",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of Chile",
+    "timezone": "UTC-3 and −5"
+  },
+  {
+    "country_name": "Republic of Chile",
+    "timezone": "UTC−4 and −6 (CLT and EASTc)"
+  },
+  {
+    "country_name": "Republic of Colombia",
+    "timezone": "UTC−5 (COT)"
+  },
+  {
+    "country_name": "Republic of Costa Rica",
+    "timezone": "UTC−6 (CST)"
+  },
+  {
+    "country_name": "Republic of Côte d'Ivoire",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Croatia",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Croatia",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Cuba",
+    "timezone": "UTC−4 (CDT)"
+  },
+  {
+    "country_name": "Republic of Cuba",
+    "timezone": "UTC−5 (CST)"
+  },
+  {
+    "country_name": "Republic of Cyprus",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Cyprus",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Djibouti",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Republic of Ecuador",
+    "timezone": "UTC−5 / −6 (ECT / GALT)"
+  },
+  {
+    "country_name": "Republic of El Salvador",
+    "timezone": "UTC−6 (CST)"
+  },
+  {
+    "country_name": "Republic of Equatorial Guinea",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of Estonia",
+    "timezone": "UTC+02:00 (EET)"
+  },
+  {
+    "country_name": "Republic of Estonia",
+    "timezone": "UTC+03:00 (EEST)"
+  },
+  {
+    "country_name": "Republic of Fiji",
+    "timezone": "UTC+12 (FJT)"
+  },
+  {
+    "country_name": "Republic of Fiji",
+    "timezone": "UTC+13 (FJST)"
+  },
+  {
+    "country_name": "Republic of Finland",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Finland",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Ghana",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Guatemala",
+    "timezone": "UTC−6 (CST)"
+  },
+  {
+    "country_name": "Republic of Guinea",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Guinea-Bissau",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Haiti",
+    "timezone": "UTC−4 (EDT)"
+  },
+  {
+    "country_name": "Republic of Haiti",
+    "timezone": "UTC−5 (EST)"
+  },
+  {
+    "country_name": "Republic of Honduras",
+    "timezone": "UTC−6 (CST)"
+  },
+  {
+    "country_name": "Republic of India",
+    "timezone": "UTC+05:30 (IST)"
+  },
+  {
+    "country_name": "Republic of Indonesia",
+    "timezone": "UTC+7 to +9 (various)"
+  },
+  {
+    "country_name": "Republic of Iraq",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "Republic of Kazakhstan",
+    "timezone": "UTC+5 / +6 (West / East)"
+  },
+  {
+    "country_name": "Republic of Kenya",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Republic of Kiribati",
+    "timezone": " +13"
+  },
+  {
+    "country_name": "Republic of Kiribati",
+    "timezone": " +14"
+  },
+  {
+    "country_name": "Republic of Kiribati",
+    "timezone": "UTC+12"
+  },
+  {
+    "country_name": "Republic of Korea",
+    "timezone": "UTC+9 (Korea Standard Time)"
+  },
+  {
+    "country_name": "Republic of Latvia",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Latvia",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Liberia",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Lithuania",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Lithuania",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Madagascar",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Republic of Madagascar",
+    "timezone": "UTC+3 (not observed)"
+  },
+  {
+    "country_name": "Republic of Malawi",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of Maldives",
+    "timezone": "UTC+5 (Maldives Time)"
+  },
+  {
+    "country_name": "Republic of Mali",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Malta",
+    "timezone": "UTC+1 (Central European Time)"
+  },
+  {
+    "country_name": "Republic of Malta",
+    "timezone": "UTC+2 (Central European Summer Time)"
+  },
+  {
+    "country_name": "Republic of Mauritius",
+    "timezone": "UTC+4 (MUT)"
+  },
+  {
+    "country_name": "Republic of Moldova",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Republic of Moldova",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Republic of Mozambique",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of Namibia",
+    "timezone": "UTC+2 (CAST)"
+  },
+  {
+    "country_name": "Republic of Nauru",
+    "timezone": "UTC+12"
+  },
+  {
+    "country_name": "Republic of Nicaragua",
+    "timezone": "UTC−6 (CST)"
+  },
+  {
+    "country_name": "Republic of North Macedonia",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of North Macedonia",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Palau",
+    "timezone": "UTC+9 (PWT)"
+  },
+  {
+    "country_name": "Republic of Panama",
+    "timezone": "UTC−5 (EST)"
+  },
+  {
+    "country_name": "Republic of Paraguay",
+    "timezone": "UTC–3 (PYST)"
+  },
+  {
+    "country_name": "Republic of Paraguay",
+    "timezone": "UTC–4 (PYT)"
+  },
+  {
+    "country_name": "Republic of Peru",
+    "timezone": "UTC−5 (PET)"
+  },
+  {
+    "country_name": "Republic of Poland",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Poland",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Rwanda",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of San Marino",
+    "timezone": "UTC+01 (CET)"
+  },
+  {
+    "country_name": "Republic of San Marino",
+    "timezone": "UTC+02 (CEST)"
+  },
+  {
+    "country_name": "Republic of Senegal",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Serbia",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Serbia",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of Seychelles",
+    "timezone": "UTC+4 (not observed)"
+  },
+  {
+    "country_name": "Republic of Seychelles",
+    "timezone": "UTC+4 (SCT)"
+  },
+  {
+    "country_name": "Republic of Sierra Leone",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of Singapore",
+    "timezone": "UTC+8 (Singapore Standard Time)"
+  },
+  {
+    "country_name": "Republic of Slovenia",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Slovenia",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Republic of South Africa",
+    "timezone": "UTC+2 (SAST)"
+  },
+  {
+    "country_name": "Republic of South Sudan",
+    "timezone": "UTC+2 (Central Africa Time)"
+  },
+  {
+    "country_name": "Republic of Suriname",
+    "timezone": "UTC-3 (SRT)"
+  },
+  {
+    "country_name": "Republic of Tajikistan",
+    "timezone": "UTC+5 (TJT)"
+  },
+  {
+    "country_name": "Republic of the Congo",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of The Gambia",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Republic of the Marshall Islands",
+    "timezone": "UTC+12 (MHT)"
+  },
+  {
+    "country_name": "Republic of the Niger",
+    "timezone": "UTC+1 (WAT)"
+  },
+  {
+    "country_name": "Republic of the Philippines",
+    "timezone": "UTC+08:00 (PST)"
+  },
+  {
+    "country_name": "Republic of the Sudan",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of the Union of Myanmar",
+    "timezone": "UTC+06:30 (MMT)"
+  },
+  {
+    "country_name": "Republic of Trinidad and Tobago",
+    "timezone": "UTC-4 (AST)"
+  },
+  {
+    "country_name": "Republic of Tunisia",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Republic of Turkey",
+    "timezone": "UTC+3 (TRT)"
+  },
+  {
+    "country_name": "Republic of Uganda",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "Republic of Uzbekistan",
+    "timezone": "UTC+5 (UZT)"
+  },
+  {
+    "country_name": "Republic of Vanuatu",
+    "timezone": "UTC+11 (VUT (Vanuatu Time))"
+  },
+  {
+    "country_name": "Republic of Yemen",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "Republic of Zambia",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Republic of Zimbabwe",
+    "timezone": "UTC+2 (CAT)"
+  },
+  {
+    "country_name": "Romania",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Romania",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Russian Federation",
+    "timezone": "UTC+2 to +12"
+  },
+  {
+    "country_name": "Saint Lucia",
+    "timezone": "UTC−4 (AST)"
+  },
+  {
+    "country_name": "Saint Vincent and the Grenadines",
+    "timezone": "UTC-4 (AST)"
+  },
+  {
+    "country_name": "Slovak Republic",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Slovak Republic",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Socialist Republic of Vietnam",
+    "timezone": "UTC+07:00 (Vietnam Standard Time)"
+  },
+  {
+    "country_name": "Solomon Islands",
+    "timezone": "UTC+11"
+  },
+  {
+    "country_name": "State of Eritrea",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "State of Eritrea",
+    "timezone": "UTC+3 (not observed)"
+  },
+  {
+    "country_name": "State of Israel",
+    "timezone": "UTC+2 (IST)"
+  },
+  {
+    "country_name": "State of Israel",
+    "timezone": "UTC+3 (IDT)"
+  },
+  {
+    "country_name": "State of Kuwait",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "State of Libya",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "State of Qatar",
+    "timezone": "UTC+3 (AST)"
+  },
+  {
+    "country_name": "Sultanate of Oman",
+    "timezone": "UTC+4 (GST)"
+  },
+  {
+    "country_name": "Swiss Confederation",
+    "timezone": "UTC+1 (CET)"
+  },
+  {
+    "country_name": "Swiss Confederation",
+    "timezone": "UTC+2 (CEST)"
+  },
+  {
+    "country_name": "Syrian Arab Republic",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Syrian Arab Republic",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Togolese Republic",
+    "timezone": "UTC  (GMT)"
+  },
+  {
+    "country_name": "Turkmenistan",
+    "timezone": "UTC+05 (TMT)"
+  },
+  {
+    "country_name": "Tuvalu",
+    "timezone": "UTC+12"
+  },
+  {
+    "country_name": "Ukraine",
+    "timezone": "UTC+2 (EET)"
+  },
+  {
+    "country_name": "Ukraine",
+    "timezone": "UTC+3 (EEST)"
+  },
+  {
+    "country_name": "Union of the Comoros",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "United Arab Emirates",
+    "timezone": "UTC+04:00 (United Arab Emirates Standard Time)"
+  },
+  {
+    "country_name": "United Kingdom of Great Britain and Northern Ireland",
+    "timezone": " WEST)"
+  },
+  {
+    "country_name": "United Kingdom of Great Britain and Northern Ireland",
+    "timezone": " WET)"
+  },
+  {
+    "country_name": "United Kingdom of Great Britain and Northern Ireland",
+    "timezone": "UTC  (Greenwich Mean Time"
+  },
+  {
+    "country_name": "United Kingdom of Great Britain and Northern Ireland",
+    "timezone": "UTC+1 (British Summer Time"
+  },
+  {
+    "country_name": "United Mexican States",
+    "timezone": "UTC−7 to −5 (varies)"
+  },
+  {
+    "country_name": "United Mexican States",
+    "timezone": "UTC−8 to −5 (See Time in Mexico)"
+  },
+  {
+    "country_name": "United Republic of Tanzania",
+    "timezone": "UTC+3 (EAT)"
+  },
+  {
+    "country_name": "United States of America",
+    "timezone": " +10"
+  },
+  {
+    "country_name": "United States of America",
+    "timezone": " +11"
+  },
+  {
+    "country_name": "United States of America",
+    "timezone": "UTC−4 to −10"
+  },
+  {
+    "country_name": "United States of America",
+    "timezone": "UTC−4 to −12"
+  }
+]

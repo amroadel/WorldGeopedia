@@ -1,0 +1,32 @@
+[
+  {
+    "username": "jessicajohnson",
+    "email": "aaronhopkins@hotmail.com",
+    "gender": "F",
+    "birthdate": "1922-08-16"
+  },
+  {
+    "username": "leeashley",
+    "email": "tamaramorrison@hotmail.com",
+    "gender": "M",
+    "birthdate": "1945-01-03"
+  },
+  {
+    "username": "lyonspeter",
+    "email": "deborah64@gmail.com",
+    "gender": "M",
+    "birthdate": "1982-02-26"
+  },
+  {
+    "username": "monica23",
+    "email": "danny30@yahoo.com",
+    "gender": "M",
+    "birthdate": "1930-04-20"
+  },
+  {
+    "username": "perezbilly",
+    "email": "epetersen@yahoo.com",
+    "gender": "F",
+    "birthdate": "1988-07-12"
+  }
+]

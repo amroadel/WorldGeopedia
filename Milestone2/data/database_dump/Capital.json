@@ -1,0 +1,1546 @@
+[
+  {
+    "name": "Abu Dhabi",
+    "country_name": "United Arab Emirates",
+    "population": "1450000",
+    "governor": null,
+    "area": "972",
+    "coordinates": "24.467°N 54.367°E"
+  },
+  {
+    "name": "Abuja",
+    "country_name": "Federal Republic of Nigeria",
+    "population": "1235880",
+    "governor": null,
+    "area": "1769",
+    "coordinates": "9.067°N 7.483°E"
+  },
+  {
+    "name": "Accra",
+    "country_name": "Republic of Ghana",
+    "population": "5055900",
+    "governor": null,
+    "area": "173",
+    "coordinates": "5.550°N 0.200°W"
+  },
+  {
+    "name": "Addis Ababa",
+    "country_name": "Federal Democratic Republic of Ethiopia",
+    "population": "3384569",
+    "governor": "Adanech Abebe",
+    "area": "527",
+    "coordinates": "9.03000°N 38.74000°E"
+  },
+  {
+    "name": "Algiers",
+    "country_name": "People's Democratic Republic of Algeria",
+    "population": "3915811",
+    "governor": "Abdelkader Seyouda (since 2019)",
+    "area": "363",
+    "coordinates": "36.75389°N 3.05889°E"
+  },
+  {
+    "name": "Amman",
+    "country_name": "Hashemite Kingdom of Jordan",
+    "population": "4302730",
+    "governor": "Noor Alnazer Farah Nabulsi",
+    "area": "1680",
+    "coordinates": "31.94972°N 35.93278°E"
+  },
+  {
+    "name": "Amsterdam",
+    "country_name": "Netherlands",
+    "population": "872680",
+    "governor": "Femke Halsema (GL)",
+    "area": "219.32",
+    "coordinates": "52.367°N 4.900°E"
+  },
+  {
+    "name": "Andorra la Vella",
+    "country_name": "Principality of Andorra",
+    "population": "22256",
+    "governor": null,
+    "area": "12",
+    "coordinates": "42.500°N 1.500°E"
+  },
+  {
+    "name": "Ankara",
+    "country_name": "Republic of Turkey",
+    "population": "5663322",
+    "governor": "Vasip Şahin",
+    "area": "24521",
+    "coordinates": "39.93000°N 32.85000°E"
+  },
+  {
+    "name": "Antananarivo",
+    "country_name": "Republic of Madagascar",
+    "population": "1275207",
+    "governor": "Naina Andriantsitohaina",
+    "area": "85.01",
+    "coordinates": "18.933°S 47.517°E"
+  },
+  {
+    "name": "Apia",
+    "country_name": "Independent State of Samoa",
+    "population": "37391",
+    "governor": null,
+    "area": "47.8",
+    "coordinates": "13.833°S 171.750°W"
+  },
+  {
+    "name": "Ashgabat",
+    "country_name": "Turkmenistan",
+    "population": "1031992",
+    "governor": "Ýaztagan Gylyjow",
+    "area": "917.6",
+    "coordinates": "37.93750°N 58.38000°E"
+  },
+  {
+    "name": "Asmara",
+    "country_name": "State of Eritrea",
+    "population": "963000",
+    "governor": "Fshaye Haile",
+    "area": "45",
+    "coordinates": "15.32278°N 38.92500°E"
+  },
+  {
+    "name": "Asunción",
+    "country_name": "Republic of Paraguay",
+    "population": "525252",
+    "governor": null,
+    "area": "117",
+    "coordinates": "25.300°S 57.633°W"
+  },
+  {
+    "name": "Athens",
+    "country_name": "Hellenic Republic",
+    "population": "664046",
+    "governor": "Kostas Bakoyannis (New Democracy)",
+    "area": "38.964",
+    "coordinates": "37.98417°N 23.72806°E"
+  },
+  {
+    "name": "Baghdad",
+    "country_name": "Republic of Iraq",
+    "population": "8126755",
+    "governor": "Alaa Al-Amari",
+    "area": "673",
+    "coordinates": "33.333°N 44.383°E"
+  },
+  {
+    "name": "Baku",
+    "country_name": "Republic of Azerbaijan",
+    "population": "2293100",
+    "governor": "Eldar Azizov",
+    "area": "2140",
+    "coordinates": "40.39528°N 49.88222°E"
+  },
+  {
+    "name": "Bamako",
+    "country_name": "Republic of Mali",
+    "population": "2713000",
+    "governor": null,
+    "area": "245",
+    "coordinates": "12.63917°N 8.00278°W"
+  },
+  {
+    "name": "Bandar Seri Begawan",
+    "country_name": "Nation of Brunei, the Abode of Peace",
+    "population": "100700",
+    "governor": null,
+    "area": "100.36",
+    "coordinates": "4.89028°N 114.94222°E"
+  },
+  {
+    "name": "Bangkok",
+    "country_name": "Kingdom of Thailand",
+    "population": "8305218",
+    "governor": "Aswin Kwanmuang",
+    "area": "1568.74",
+    "coordinates": "13.75250°N 100.49417°E"
+  },
+  {
+    "name": "Bangui",
+    "country_name": "Central African Republic",
+    "population": "889231",
+    "governor": "Emile Raymond Gros Nakombo (2016–present)",
+    "area": "67",
+    "coordinates": "4.37333°N 18.56278°E"
+  },
+  {
+    "name": "Banjul",
+    "country_name": "Republic of The Gambia",
+    "population": "73000",
+    "governor": "Rohey Malick Lowe",
+    "area": "12",
+    "coordinates": "13.45306°N 16.57750°W"
+  },
+  {
+    "name": "Basseterre",
+    "country_name": "Federation of Saint Christopher and Nevis",
+    "population": "14000",
+    "governor": null,
+    "area": "6.1",
+    "coordinates": "17.300°N 62.733°W"
+  },
+  {
+    "name": "Beijing",
+    "country_name": "People's Republic of China",
+    "population": "21893095",
+    "governor": "Chen Jining",
+    "area": "16410.5",
+    "coordinates": "39.90667°N 116.39750°E"
+  },
+  {
+    "name": "Beirut",
+    "country_name": "Lebanese Republic",
+    "population": "361366",
+    "governor": "Marwan Abboud",
+    "area": "19.8",
+    "coordinates": "33.88694°N 35.51306°E"
+  },
+  {
+    "name": "Belgrade",
+    "country_name": "Republic of Serbia",
+    "population": "1166763",
+    "governor": "Zoran Radojičić (Ind.)",
+    "area": "359.9",
+    "coordinates": "44.817°N 20.467°E"
+  },
+  {
+    "name": "Belmopan",
+    "country_name": "Belize",
+    "population": "16451",
+    "governor": "Khalid Belisle (UDP)",
+    "area": "32.78",
+    "coordinates": "17.25139°N 88.76694°W"
+  },
+  {
+    "name": "Berlin",
+    "country_name": "Federal Republic of Germany",
+    "population": "3664088",
+    "governor": "Michael Müller (SPD)",
+    "area": "891.7",
+    "coordinates": "52.52000°N 13.40500°E"
+  },
+  {
+    "name": "Bishkek",
+    "country_name": "Kyrgyz Republic",
+    "population": "1053915",
+    "governor": "Aibek Dzhunushaliev",
+    "area": "169.9",
+    "coordinates": "42.87472°N 74.61222°E"
+  },
+  {
+    "name": "Bissau",
+    "country_name": "Republic of Guinea-Bissau",
+    "population": "492004",
+    "governor": null,
+    "area": "77.5",
+    "coordinates": "11.850°N 15.567°W"
+  },
+  {
+    "name": "Bogotá",
+    "country_name": "Republic of Colombia",
+    "population": "7412566",
+    "governor": "Claudia López Hernández(2020–2023)",
+    "area": "1587",
+    "coordinates": "4.71111°N 74.07222°W"
+  },
+  {
+    "name": "Brasília",
+    "country_name": "Federative Republic of Brazil",
+    "population": "3039444",
+    "governor": null,
+    "area": "5802",
+    "coordinates": "15.79389°S 47.88278°W"
+  },
+  {
+    "name": "Bratislava",
+    "country_name": "Slovak Republic",
+    "population": "440948",
+    "governor": "Matúš Vallo",
+    "area": "367.584",
+    "coordinates": "48.14389°N 17.10972°E"
+  },
+  {
+    "name": "Brazzaville",
+    "country_name": "Republic of the Congo",
+    "population": "1696392",
+    "governor": "Dieudonné Bantsimba",
+    "area": "263.9",
+    "coordinates": "4.26778°S 15.29194°E"
+  },
+  {
+    "name": "Bridgetown",
+    "country_name": "Barbados",
+    "population": "110000",
+    "governor": null,
+    "area": "15",
+    "coordinates": "13.09750°N 59.61667°W"
+  },
+  {
+    "name": "Brussels",
+    "country_name": "Kingdom of Belgium",
+    "population": "1208542",
+    "governor": null,
+    "area": "162.4",
+    "coordinates": "50.850°N 4.350°E"
+  },
+  {
+    "name": "Bucharest",
+    "country_name": "Romania",
+    "population": "1883425",
+    "governor": "Nicușor Dan (Ind.)",
+    "area": "228",
+    "coordinates": "44.43250°N 26.10389°E"
+  },
+  {
+    "name": "Budapest",
+    "country_name": "Hungary",
+    "population": "1752286",
+    "governor": "Gergely Karácsony (Dialogue)",
+    "area": "525.2",
+    "coordinates": "47.49250°N 19.05139°E"
+  },
+  {
+    "name": "Buenos Aires",
+    "country_name": "Argentine Republic",
+    "population": "2891082",
+    "governor": "Horacio Rodríguez Larreta (PRO)",
+    "area": "203",
+    "coordinates": "34.60333°S 58.38167°W"
+  },
+  {
+    "name": "Cairo",
+    "country_name": "Arab Republic of Egypt",
+    "population": "1539673",
+    "governor": "Khaled Abdel Aal",
+    "area": "3085.12",
+    "coordinates": "30.033°N 31.233°E"
+  },
+  {
+    "name": "Canberra",
+    "country_name": "Commonwealth of Australia",
+    "population": "431380",
+    "governor": null,
+    "area": "814.2",
+    "coordinates": "35.29306°S 149.12694°E"
+  },
+  {
+    "name": "Caracas",
+    "country_name": "Bolivarian Republic of Venezuela",
+    "population": "2245744",
+    "governor": null,
+    "area": "433",
+    "coordinates": "10.48056°N 66.90361°W"
+  },
+  {
+    "name": "Castries",
+    "country_name": "Saint Lucia",
+    "population": "20000",
+    "governor": "Geraldine Lendor-Gabriel",
+    "area": "79",
+    "coordinates": "14.017°N 60.983°W"
+  },
+  {
+    "name": "Chișinău",
+    "country_name": "Republic of Moldova",
+    "population": "532513",
+    "governor": "Ion Ceban",
+    "area": "123",
+    "coordinates": "47.02278°N 28.83528°E"
+  },
+  {
+    "name": "City of San Marino",
+    "country_name": "Republic of San Marino",
+    "population": "4071",
+    "governor": null,
+    "area": "7.09",
+    "coordinates": "43.9346000°N 12.4473000°E"
+  },
+  {
+    "name": "City-state",
+    "country_name": "Principality of Monaco",
+    "population": null,
+    "governor": null,
+    "area": null,
+    "coordinates": null
+  },
+  {
+    "name": "Conakry",
+    "country_name": "Republic of Guinea",
+    "population": "1660973",
+    "governor": null,
+    "area": "450",
+    "coordinates": "9.50917°N 13.71222°W"
+  },
+  {
+    "name": "Copenhagen",
+    "country_name": "Denmark",
+    "population": "799033",
+    "governor": null,
+    "area": "179.8",
+    "coordinates": "55.67611°N 12.56833°E"
+  },
+  {
+    "name": "Dakar",
+    "country_name": "Republic of Senegal",
+    "population": "1146052",
+    "governor": "Soham El Wardini (2018) (BSS/PS)",
+    "area": "83",
+    "coordinates": "14.69278°N 17.44667°W"
+  },
+  {
+    "name": "Damascus",
+    "country_name": "Syrian Arab Republic",
+    "population": "2079000",
+    "governor": null,
+    "area": "105",
+    "coordinates": "33.51306°N 36.29194°E"
+  },
+  {
+    "name": "De jure",
+    "country_name": "Swiss Confederation",
+    "population": null,
+    "governor": null,
+    "area": null,
+    "coordinates": null
+  },
+  {
+    "name": "Dhaka",
+    "country_name": "People's Republic of Bangladesh",
+    "population": "8906039",
+    "governor": "Atiqul Islam",
+    "area": "306",
+    "coordinates": "23.76389°N 90.38889°E"
+  },
+  {
+    "name": "Dili",
+    "country_name": "Democratic Republic ofTimor-Leste",
+    "population": "222323",
+    "governor": null,
+    "area": "48.27",
+    "coordinates": "8.55361°S 125.57833°E"
+  },
+  {
+    "name": "Djibouti (city)",
+    "country_name": "Republic of Djibouti",
+    "population": "600000",
+    "governor": "Fatouma Awaleh Osman",
+    "area": "26",
+    "coordinates": "11.58833°N 43.14500°E"
+  },
+  {
+    "name": "Dodoma",
+    "country_name": "United Republic of Tanzania",
+    "population": "2245800",
+    "governor": "Davis G. Mwamfupe",
+    "area": "2576",
+    "coordinates": "6.17306°S 35.74194°E"
+  },
+  {
+    "name": "Doha",
+    "country_name": "State of Qatar",
+    "population": "2382000",
+    "governor": null,
+    "area": "132",
+    "coordinates": "25.28667°N 51.53333°E"
+  },
+  {
+    "name": "Dublin",
+    "country_name": "Ireland",
+    "population": "554554",
+    "governor": "Alison Gilliland (Lab)",
+    "area": "117.8",
+    "coordinates": "53.34972°N 6.26028°W"
+  },
+  {
+    "name": "Dushanbe",
+    "country_name": "Republic of Tajikistan",
+    "population": "863400",
+    "governor": "Rustam Emomali (People's Democratic Party of Tajikistan)",
+    "area": "203.182",
+    "coordinates": "38.53667°N 68.78000°E"
+  },
+  {
+    "name": "Freetown",
+    "country_name": "Republic of Sierra Leone",
+    "population": "1055964",
+    "governor": "Yvonne Aki-Sawyerr (APC)",
+    "area": "81.48",
+    "coordinates": "8.48444°N 13.23444°W"
+  },
+  {
+    "name": "Funafuti",
+    "country_name": "Tuvalu",
+    "population": "6320",
+    "governor": null,
+    "area": "2.4",
+    "coordinates": "8.517°S 179.200°E"
+  },
+  {
+    "name": "Gaborone",
+    "country_name": "Republic of Botswana",
+    "population": "231626",
+    "governor": "Thata Father Maphongo (BDP)",
+    "area": "169",
+    "coordinates": "24.65806°S 25.91222°E"
+  },
+  {
+    "name": "Georgetown, Guyana",
+    "country_name": "Co-operative Republic of Guyana",
+    "population": "118363",
+    "governor": "Ubraj Narine",
+    "area": "70",
+    "coordinates": "6.80111°N 58.15528°W"
+  },
+  {
+    "name": "Gitega",
+    "country_name": "Republic of Burundi",
+    "population": "135467",
+    "governor": null,
+    "area": "22",
+    "coordinates": "3.433°S 29.900°E"
+  },
+  {
+    "name": "Guatemala City",
+    "country_name": "Republic of Guatemala",
+    "population": "995393",
+    "governor": "Ricardo Quiñónez Lemus (Unionist)",
+    "area": "220",
+    "coordinates": "14.61333°N 90.53528°W"
+  },
+  {
+    "name": "Hanoi",
+    "country_name": "Socialist Republic of Vietnam",
+    "population": "8053663",
+    "governor": null,
+    "area": "3358.6",
+    "coordinates": "21.02833°N 105.85417°E"
+  },
+  {
+    "name": "Harare",
+    "country_name": "Republic of Zimbabwe",
+    "population": "2123132",
+    "governor": "Jacob Mafume (MDC)",
+    "area": "960.6",
+    "coordinates": "17.82917°S 31.05222°E"
+  },
+  {
+    "name": "Havana",
+    "country_name": "Republic of Cuba",
+    "population": "2130517",
+    "governor": "Reinaldo García Zapata (PCC)",
+    "area": "728.26",
+    "coordinates": "23.13667°N 82.35889°W"
+  },
+  {
+    "name": "Helsinki",
+    "country_name": "Republic of Finland",
+    "population": "656250",
+    "governor": "Juhana Vartiainen (NCP)",
+    "area": "715.48",
+    "coordinates": "60.17083°N 24.93750°E"
+  },
+  {
+    "name": "Honiara",
+    "country_name": "Solomon Islands",
+    "population": "84520",
+    "governor": "Wilson Mamae",
+    "area": "22",
+    "coordinates": "9.43194°S 159.95556°E"
+  },
+  {
+    "name": "Islamabad",
+    "country_name": "Islamic Republic of Pakistan",
+    "population": "1014825",
+    "governor": "Peer Adil Shah Gillani",
+    "area": "220",
+    "coordinates": "33.69306°N 73.06389°E"
+  },
+  {
+    "name": "Jakarta",
+    "country_name": "Republic of Indonesia",
+    "population": "10562088",
+    "governor": "Anies Baswedan",
+    "area": "664.01",
+    "coordinates": "6.200°S 106.817°E"
+  },
+  {
+    "name": "Jerusalem",
+    "country_name": "State of Israel",
+    "population": "936425",
+    "governor": null,
+    "area": "125156",
+    "coordinates": "31.783°N 35.217°E"
+  },
+  {
+    "name": "Juba",
+    "country_name": "Republic of South Sudan",
+    "population": "525953",
+    "governor": "Stephen Wani Michael",
+    "area": "52",
+    "coordinates": "4.850°N 31.600°E"
+  },
+  {
+    "name": "Kabul",
+    "country_name": "Islamic Emirate of Afghanistan",
+    "population": "4601789",
+    "governor": "Hamdullah Nomani",
+    "area": "1028.24",
+    "coordinates": "34.52528°N 69.17833°E"
+  },
+  {
+    "name": "Kampala",
+    "country_name": "Republic of Uganda",
+    "population": "1680600",
+    "governor": "Erias Lukwago",
+    "area": "189",
+    "coordinates": "0.31361°N 32.58111°E"
+  },
+  {
+    "name": "Kathmandu",
+    "country_name": "Federal Democratic Republic of Nepal",
+    "population": "975453",
+    "governor": "Bidya Sundar Shakya (CPN-UML)",
+    "area": "49.45",
+    "coordinates": "27.7172°N 85.3240°E"
+  },
+  {
+    "name": "Khartoum",
+    "country_name": "Republic of the Sudan",
+    "population": "639598",
+    "governor": null,
+    "area": "1010",
+    "coordinates": "15.50056°N 32.56000°E"
+  },
+  {
+    "name": "Kigali",
+    "country_name": "Republic of Rwanda",
+    "population": "1132686",
+    "governor": "Pudence Rubingisa",
+    "area": "730",
+    "coordinates": "1.94389°S 30.05944°E"
+  },
+  {
+    "name": "Kingston, Jamaica",
+    "country_name": "Jamaica",
+    "population": "662435",
+    "governor": "Delroy Williams",
+    "area": "480",
+    "coordinates": "17.97139°N 76.79306°W"
+  },
+  {
+    "name": "Kingstown",
+    "country_name": "Saint Vincent and the Grenadines",
+    "population": "12909",
+    "governor": null,
+    "area": null,
+    "coordinates": "13.15778°N 61.22500°W"
+  },
+  {
+    "name": "Kinshasa",
+    "country_name": "Democratic Republic of the Congo",
+    "population": "17071000",
+    "governor": "Gentiny Ngobila Mbala",
+    "area": "9965",
+    "coordinates": "4.32500°S 15.32222°E"
+  },
+  {
+    "name": "Kuala Lumpur",
+    "country_name": "Malaysia",
+    "population": "1790000",
+    "governor": "Mahadi bin Che Ngah\n",
+    "area": "243",
+    "coordinates": "3.14778°N 101.69528°E"
+  },
+  {
+    "name": "Kuwait City",
+    "country_name": "State of Kuwait",
+    "population": "3",
+    "governor": null,
+    "area": null,
+    "coordinates": "29.36972°N 47.97833°E"
+  },
+  {
+    "name": "Kyiv",
+    "country_name": "Ukraine",
+    "population": "2962180",
+    "governor": "Vitali Klitschko",
+    "area": "839",
+    "coordinates": "50.45000°N 30.52333°E"
+  },
+  {
+    "name": "Libreville",
+    "country_name": "Gabonese Republic",
+    "population": "703904",
+    "governor": null,
+    "area": "65.42",
+    "coordinates": "0.39028°N 9.45417°E"
+  },
+  {
+    "name": "Lilongwe",
+    "country_name": "Republic of Malawi",
+    "population": "989318",
+    "governor": "Juliana Kaduya",
+    "area": "727.79",
+    "coordinates": "13.983°S 33.783°E"
+  },
+  {
+    "name": "Lima",
+    "country_name": "Republic of Peru",
+    "population": "9751717",
+    "governor": "Jorge Muñoz",
+    "area": "2672.3",
+    "coordinates": "12.050°S 77.033°W"
+  },
+  {
+    "name": "Lisbon",
+    "country_name": "Portuguese Republic",
+    "population": "544851",
+    "governor": "Carlos Moedas",
+    "area": "100.05",
+    "coordinates": "38.7252668°N 9.1500193°W"
+  },
+  {
+    "name": "Ljubljana",
+    "country_name": "Republic of Slovenia",
+    "population": "295504",
+    "governor": "Zoran Janković (PS)",
+    "area": "163.8",
+    "coordinates": "46.05556°N 14.50833°E"
+  },
+  {
+    "name": "Lomé",
+    "country_name": "Togolese Republic",
+    "population": "837437",
+    "governor": "Aouissi Lodé",
+    "area": "99.14",
+    "coordinates": "6.13194°N 1.22278°E"
+  },
+  {
+    "name": "London",
+    "country_name": "United Kingdom of Great Britain and Northern Ireland",
+    "population": "8961989",
+    "governor": null,
+    "area": "1572",
+    "coordinates": "51.50722°N 0.12750°W"
+  },
+  {
+    "name": "Luanda",
+    "country_name": "Republic of Angola",
+    "population": "2571861",
+    "governor": null,
+    "area": "116",
+    "coordinates": "8.83833°S 13.23444°E"
+  },
+  {
+    "name": "Lusaka",
+    "country_name": "Republic of Zambia",
+    "population": "1747152",
+    "governor": "Miles Sampa",
+    "area": "418",
+    "coordinates": "15.417°S 28.283°E"
+  },
+  {
+    "name": "Luxembourg City",
+    "country_name": "Grand Duchy of Luxembourg",
+    "population": "124528",
+    "governor": "Lydie Polfer (DP)",
+    "area": "51.46",
+    "coordinates": "49.61167°N 6.13194°E"
+  },
+  {
+    "name": "Madrid",
+    "country_name": "Kingdom of Spain",
+    "population": "3223334",
+    "governor": "José Luis Martínez-Almeida (PP)",
+    "area": "604.31",
+    "coordinates": "40.417°N 3.717°W"
+  },
+  {
+    "name": "Majuro",
+    "country_name": "Republic of the Marshall Islands",
+    "population": "27797",
+    "governor": "Ladie Jack",
+    "area": null,
+    "coordinates": "7.083°N 171.383°E"
+  },
+  {
+    "name": "Malabo",
+    "country_name": "Republic of Equatorial Guinea",
+    "population": "297000",
+    "governor": null,
+    "area": "21",
+    "coordinates": "3.7520639°N 8.7737000°E"
+  },
+  {
+    "name": "Malé",
+    "country_name": "Republic of Maldives",
+    "population": "133412",
+    "governor": "Dr. Mohamed Muiz",
+    "area": "1.95",
+    "coordinates": "4.17528°N 73.50889°E"
+  },
+  {
+    "name": "Managua",
+    "country_name": "Republic of Nicaragua",
+    "population": "1055247",
+    "governor": "Reyna Rueda",
+    "area": "267",
+    "coordinates": "12.13639°N 86.25139°W"
+  },
+  {
+    "name": "Manama",
+    "country_name": "Kingdom of Bahrain",
+    "population": "200000",
+    "governor": "Hamad bin Isa Al Khalifa",
+    "area": "30",
+    "coordinates": "26.22500°N 50.57750°E"
+  },
+  {
+    "name": "Manila",
+    "country_name": "Republic of the Philippines",
+    "population": "1846513",
+    "governor": "Isko Moreno (Aksyon/Asenso Manileño)",
+    "area": "42.88",
+    "coordinates": "14.6°N 120.98°E"
+  },
+  {
+    "name": "Maputo",
+    "country_name": "Republic of Mozambique",
+    "population": "1088449",
+    "governor": "Iolanda Cintura",
+    "area": "347.69",
+    "coordinates": "25.967°S 32.583°E"
+  },
+  {
+    "name": "Maseru",
+    "country_name": "Kingdom of Lesotho",
+    "population": "330760",
+    "governor": null,
+    "area": "138",
+    "coordinates": "29.31°S 27.48°E"
+  },
+  {
+    "name": "Mbabane",
+    "country_name": "Kingdom of Eswatini",
+    "population": "94874",
+    "governor": "Sikhumbuzo Dube",
+    "area": "81.76",
+    "coordinates": "26.317°S 31.133°E"
+  },
+  {
+    "name": "Mexico City",
+    "country_name": "United Mexican States",
+    "population": "9209944",
+    "governor": " Claudia Sheinbaum",
+    "area": "1485",
+    "coordinates": "19.433°N 99.133°W"
+  },
+  {
+    "name": "Minsk",
+    "country_name": "Republic of Belarus",
+    "population": "2009786",
+    "governor": null,
+    "area": "409.5",
+    "coordinates": "53.900°N 27.567°E"
+  },
+  {
+    "name": "Mogadishu",
+    "country_name": "Federal Republic of Somalia",
+    "population": "2388000",
+    "governor": "Omar M. Finnish",
+    "area": null,
+    "coordinates": "2.033°N 45.333°E"
+  },
+  {
+    "name": "Monrovia",
+    "country_name": "Republic of Liberia",
+    "population": "1010970",
+    "governor": "Jefferson T. Koijee",
+    "area": "75",
+    "coordinates": "6.31333°N 10.80139°W"
+  },
+  {
+    "name": "Montevideo",
+    "country_name": "Oriental Republic of Uruguay",
+    "population": "1719453",
+    "governor": null,
+    "area": "201",
+    "coordinates": "34.88361°S 56.18194°W"
+  },
+  {
+    "name": "Moroni, Comoros",
+    "country_name": "Union of the Comoros",
+    "population": "111326",
+    "governor": null,
+    "area": "30",
+    "coordinates": "11.699°S 43.256°E"
+  },
+  {
+    "name": "Moscow",
+    "country_name": "Russian Federation",
+    "population": "12506468",
+    "governor": "Sergey Sobyanin",
+    "area": "2561.5",
+    "coordinates": "55.75583°N 37.61722°E"
+  },
+  {
+    "name": "Muscat, Oman",
+    "country_name": "Sultanate of Oman",
+    "population": "76344",
+    "governor": null,
+    "area": "273.9",
+    "coordinates": "23.58889°N 58.40833°E"
+  },
+  {
+    "name": "N'Djamena",
+    "country_name": "Republic of Chad",
+    "population": "916000",
+    "governor": null,
+    "area": "104",
+    "coordinates": "12.11000°N 15.05000°E"
+  },
+  {
+    "name": "Nairobi",
+    "country_name": "Republic of Kenya",
+    "population": "4397073",
+    "governor": "Anne Kananu Mwenda",
+    "area": "696",
+    "coordinates": "1.28639°S 36.81722°E"
+  },
+  {
+    "name": "Nassau, Bahamas",
+    "country_name": "Commonwealth of The Bahamas",
+    "population": "274400",
+    "governor": null,
+    "area": "207",
+    "coordinates": "25.067°N 77.333°W"
+  },
+  {
+    "name": "Naypyidaw",
+    "country_name": "Republic of the Union of Myanmar",
+    "population": "924608",
+    "governor": null,
+    "area": "7054.37",
+    "coordinates": "19.74750°N 96.11500°E"
+  },
+  {
+    "name": "New Delhi",
+    "country_name": "Republic of India",
+    "population": "257803",
+    "governor": null,
+    "area": "42.7",
+    "coordinates": "28.6138954°N 77.2090057°E"
+  },
+  {
+    "name": "Ngerulmud",
+    "country_name": "Republic of Palau",
+    "population": "271",
+    "governor": null,
+    "area": null,
+    "coordinates": "7.50056°N 134.62417°E"
+  },
+  {
+    "name": "Niamey",
+    "country_name": "Republic of the Niger",
+    "population": "1026848",
+    "governor": "Assane Seydou Sanda",
+    "area": "239.3",
+    "coordinates": "13.51167°N 2.12528°E"
+  },
+  {
+    "name": "Nicosia",
+    "country_name": "Republic of Cyprus",
+    "population": "55014",
+    "governor": "Constantinos Yiorkadjis (Ind.)",
+    "area": "51.06",
+    "coordinates": "35.17250°N 33.36500°E"
+  },
+  {
+    "name": "Nouakchott",
+    "country_name": "Islamic Republic of Mauritania",
+    "population": "1195600",
+    "governor": null,
+    "area": "1000",
+    "coordinates": "18.08581°N 15.9785°W"
+  },
+  {
+    "name": "Nukuʻalofa",
+    "country_name": "Kingdom of Tonga",
+    "population": "23221",
+    "governor": null,
+    "area": null,
+    "coordinates": "21.13333°S 175.20000°W"
+  },
+  {
+    "name": "Nur-Sultan",
+    "country_name": "Republic of Kazakhstan",
+    "population": "1136008",
+    "governor": null,
+    "area": "810.2",
+    "coordinates": "51.167°N 71.433°E"
+  },
+  {
+    "name": "Oslo",
+    "country_name": "Kingdom of Norway",
+    "population": "697010",
+    "governor": "Marianne Borgen (SV)",
+    "area": "480",
+    "coordinates": "59.91389°N 10.75222°E"
+  },
+  {
+    "name": "Ottawa",
+    "country_name": "Canada",
+    "population": "934243",
+    "governor": "Jim Watson",
+    "area": "2790.3",
+    "coordinates": "45.42472°N 75.69500°W"
+  },
+  {
+    "name": "Ouagadougou",
+    "country_name": "Burkina Faso",
+    "population": "2453496",
+    "governor": "Armand Béouindé (since 2016)",
+    "area": "520",
+    "coordinates": "12.367°N 1.533°W"
+  },
+  {
+    "name": "Palikir",
+    "country_name": "Federated States of Micronesia",
+    "population": "6647",
+    "governor": null,
+    "area": null,
+    "coordinates": "6.91722°N 158.15889°E"
+  },
+  {
+    "name": "Panama City",
+    "country_name": "Republic of Panama",
+    "population": "880691",
+    "governor": "José Luis Fábrega (PRD)",
+    "area": "275",
+    "coordinates": "8.983°N 79.517°W"
+  },
+  {
+    "name": "Paramaribo",
+    "country_name": "Republic of Suriname",
+    "population": "240924",
+    "governor": null,
+    "area": "182",
+    "coordinates": "5.85222°N 55.20389°W"
+  },
+  {
+    "name": "Paris",
+    "country_name": "French Republic",
+    "population": "2175601",
+    "governor": "Anne Hidalgo (PS)",
+    "area": "105.4",
+    "coordinates": "48.856613°N 2.352222°E"
+  },
+  {
+    "name": "Phnom Penh",
+    "country_name": "Kingdom of Cambodia",
+    "population": "2281951",
+    "governor": "Khuong Sreng (CPP)",
+    "area": "679",
+    "coordinates": "11.56944°N 104.92111°E"
+  },
+  {
+    "name": "Podgorica",
+    "country_name": "Montenegro",
+    "population": "150977",
+    "governor": "Ivan Vuković (DPS)",
+    "area": "108",
+    "coordinates": "42.4412861°N 19.2628917°E"
+  },
+  {
+    "name": "Port Louis",
+    "country_name": "Republic of Mauritius",
+    "population": "147066",
+    "governor": "Daniel Eric Clive Laurent",
+    "area": "46.7",
+    "coordinates": "20.16444°S 57.50417°E"
+  },
+  {
+    "name": "Port Moresby",
+    "country_name": "Independent State of Papua New Guinea",
+    "population": "364145",
+    "governor": "Powes Parkop (2007-)",
+    "area": "240",
+    "coordinates": "9.47889°S 147.14944°E"
+  },
+  {
+    "name": "Port of Spain",
+    "country_name": "Republic of Trinidad and Tobago",
+    "population": "37074",
+    "governor": "Joel Martinez, PNM",
+    "area": "12",
+    "coordinates": "10.667°N 61.517°W"
+  },
+  {
+    "name": "Port Vila",
+    "country_name": "Republic of Vanuatu",
+    "population": "51437",
+    "governor": "Erick Puyo Festa",
+    "area": "23.6",
+    "coordinates": "17.733°S 168.317°E"
+  },
+  {
+    "name": "Port-au-Prince",
+    "country_name": "Republic of Haiti",
+    "population": "987310",
+    "governor": "Ralph Youri Chevry",
+    "area": "36.04",
+    "coordinates": "18.533°N 72.333°W"
+  },
+  {
+    "name": "Porto-Novo",
+    "country_name": "Republic of Benin",
+    "population": "264320",
+    "governor": "Emmanuel Zossou",
+    "area": "110",
+    "coordinates": "6.49722°N 2.60500°E"
+  },
+  {
+    "name": "Prague",
+    "country_name": "Czech Republic",
+    "population": "1335084",
+    "governor": "Zdeněk Hřib (Pirates)",
+    "area": "496",
+    "coordinates": "50.083°N 14.417°E"
+  },
+  {
+    "name": "Praia",
+    "country_name": "Republic of Cabo Verde",
+    "population": "159050",
+    "governor": null,
+    "area": "102.6",
+    "coordinates": "14.918°N 23.509°W"
+  },
+  {
+    "name": "Pretoria",
+    "country_name": "Republic of South Africa",
+    "population": "2472612",
+    "governor": "Randall Williams (DA)",
+    "area": "687.54",
+    "coordinates": "25.74611°S 28.18806°E"
+  },
+  {
+    "name": "Pyongyang",
+    "country_name": "Democratic People'sRepublic of Korea",
+    "population": "2870000",
+    "governor": null,
+    "area": "2000",
+    "coordinates": "39.01944°N 125.73806°E"
+  },
+  {
+    "name": "Quito",
+    "country_name": "Republic of Ecuador",
+    "population": "2011388",
+    "governor": "Santiago Guarderas",
+    "area": "372.39",
+    "coordinates": "0.22000°S 78.51250°W"
+  },
+  {
+    "name": "Rabat",
+    "country_name": "Kingdom of Morocco",
+    "population": "577827",
+    "governor": "Asmaa Rhlalou",
+    "area": "117",
+    "coordinates": "34.033°N 6.833°W"
+  },
+  {
+    "name": "Reykjavík",
+    "country_name": "Iceland",
+    "population": "131136",
+    "governor": null,
+    "area": "273",
+    "coordinates": "64.14667°N 21.94000°W"
+  },
+  {
+    "name": "Riga",
+    "country_name": "Republic of Latvia",
+    "population": "614618",
+    "governor": "Mārtiņš Staķis",
+    "area": "304.03",
+    "coordinates": "56.94889°N 24.10639°E"
+  },
+  {
+    "name": "Riyadh",
+    "country_name": "Kingdom of Saudi Arabia",
+    "population": "7676654",
+    "governor": "Faisal bin Bandar Al Saud",
+    "area": "1973",
+    "coordinates": "24.633°N 46.717°E"
+  },
+  {
+    "name": "Rome",
+    "country_name": "Italian Republic",
+    "population": "2860009",
+    "governor": "Roberto Gualtieri (PD)",
+    "area": "1285",
+    "coordinates": "41.883°N 12.500°E"
+  },
+  {
+    "name": "Roseau",
+    "country_name": "Commonwealth of Dominica",
+    "population": "14725",
+    "governor": "Cecil Joseph",
+    "area": null,
+    "coordinates": "15.301389°N 61.388333°W"
+  },
+  {
+    "name": "San José, Costa Rica",
+    "country_name": "Republic of Costa Rica",
+    "population": "342188",
+    "governor": "Johnny Araya Monge (PASJ)",
+    "area": "44.62",
+    "coordinates": "9.933°N 84.083°W"
+  },
+  {
+    "name": "San Salvador",
+    "country_name": "Republic of El Salvador",
+    "population": "2406709",
+    "governor": "Mario Durán",
+    "area": "72.25",
+    "coordinates": "13.69889°N 89.19139°W"
+  },
+  {
+    "name": "Sana'a",
+    "country_name": "Republic of Yemen",
+    "population": "2545000",
+    "governor": null,
+    "area": "126",
+    "coordinates": "15.34833°N 44.20639°E"
+  },
+  {
+    "name": "Santiago",
+    "country_name": "Republic of Chile",
+    "population": "6269384",
+    "governor": "Claudio Orrego Larraín",
+    "area": "641",
+    "coordinates": "33.450°S 70.667°W"
+  },
+  {
+    "name": "Santo Domingo",
+    "country_name": "Dominican Republic",
+    "population": "965040",
+    "governor": "Carolina Mejía",
+    "area": "104.44",
+    "coordinates": "18.467°N 69.950°W"
+  },
+  {
+    "name": "São Tomé",
+    "country_name": "Democratic Republic ofSão Tomé and Príncipe",
+    "population": "71868",
+    "governor": null,
+    "area": "17",
+    "coordinates": "0.33611°N 6.73056°E"
+  },
+  {
+    "name": "Sarajevo",
+    "country_name": "Bosnia and Herzegovina",
+    "population": "275524",
+    "governor": "Benjamina Karić (SDP BiH)",
+    "area": "141.5",
+    "coordinates": "43.867°N 18.417°E"
+  },
+  {
+    "name": "Seoul",
+    "country_name": "Republic of Korea",
+    "population": "9733509",
+    "governor": "Oh Se-hoon (People's Power)",
+    "area": null,
+    "coordinates": "37.56000°N 126.99000°E"
+  },
+  {
+    "name": "Singapore",
+    "country_name": "Republic of Singapore",
+    "population": "5453600",
+    "governor": null,
+    "area": "728.6",
+    "coordinates": null
+  },
+  {
+    "name": "Skopje",
+    "country_name": "Republic of North Macedonia",
+    "population": "506926",
+    "governor": "Danela Arsovska (Independent)",
+    "area": "571.46",
+    "coordinates": "42.000°N 21.433°E"
+  },
+  {
+    "name": "Sofia",
+    "country_name": "Republic of Bulgaria",
+    "population": "1242568",
+    "governor": "Yordanka Fandakova (GERB)",
+    "area": "492",
+    "coordinates": "42.70°N 23.33°E"
+  },
+  {
+    "name": "South Tarawa",
+    "country_name": "Republic of Kiribati",
+    "population": "63439",
+    "governor": null,
+    "area": "15.76",
+    "coordinates": "1.433°N 173.000°E"
+  },
+  {
+    "name": "Sri Jayawardenepura Kotte",
+    "country_name": "Democratic Socialist Republic of Sri Lanka",
+    "population": "115826",
+    "governor": "I M V Premalal (SLPP)",
+    "area": "17",
+    "coordinates": "6.917°N 79.917°E"
+  },
+  {
+    "name": "St. George's, Grenada",
+    "country_name": "Grenada",
+    "population": "33734",
+    "governor": null,
+    "area": null,
+    "coordinates": "12.050°N 61.750°W"
+  },
+  {
+    "name": "St. John's, Antigua and Barbuda",
+    "country_name": "Antigua and Barbuda",
+    "population": "22219",
+    "governor": null,
+    "area": "10",
+    "coordinates": "17.117°N 61.850°W"
+  },
+  {
+    "name": "Stockholm",
+    "country_name": "Kingdom of Sweden",
+    "population": "975819",
+    "governor": "Anna König Jerlmyr (M)",
+    "area": "188",
+    "coordinates": "59.32944°N 18.06861°E"
+  },
+  {
+    "name": "Sucre",
+    "country_name": "Plurinational State of Bolivia",
+    "population": "360544",
+    "governor": "Rosario López Rojo de Aparicio",
+    "area": "1768",
+    "coordinates": "19.05000°S 65.25000°W"
+  },
+  {
+    "name": "Suva",
+    "country_name": "Republic of Fiji",
+    "population": "93970",
+    "governor": null,
+    "area": "26.24",
+    "coordinates": null
+  },
+  {
+    "name": "Tallinn",
+    "country_name": "Republic of Estonia",
+    "population": "437619",
+    "governor": "Mihhail Kõlvart",
+    "area": "159.2",
+    "coordinates": "59.43722°N 24.74528°E"
+  },
+  {
+    "name": "Tashkent",
+    "country_name": "Republic of Uzbekistan",
+    "population": "2571668",
+    "governor": "Jahongir Ortiqhojaev",
+    "area": "334.8",
+    "coordinates": "41.300°N 69.267°E"
+  },
+  {
+    "name": "Tbilisi",
+    "country_name": "Georgia",
+    "population": "1171100",
+    "governor": "Kakha Kaladze (GD)",
+    "area": "504.2",
+    "coordinates": "41.72250°N 44.79250°E"
+  },
+  {
+    "name": "Tegucigalpa",
+    "country_name": "Republic of Honduras",
+    "population": "1276738",
+    "governor": "Nasry Asfura (PNH)",
+    "area": "1502",
+    "coordinates": "14.100°N 87.217°W"
+  },
+  {
+    "name": "Tehran",
+    "country_name": "Islamic Republic of Iran",
+    "population": "8693706",
+    "governor": "Alireza Zakani",
+    "area": "615",
+    "coordinates": "35.68917°N 51.38889°E"
+  },
+  {
+    "name": "Thimphu",
+    "country_name": "Kingdom of Bhutan",
+    "population": "114551",
+    "governor": null,
+    "area": "26.1",
+    "coordinates": "27.47222°N 89.63611°E"
+  },
+  {
+    "name": "Tirana",
+    "country_name": "Republic of Albania",
+    "population": "557422",
+    "governor": "Erion Veliaj (PS)",
+    "area": "1110.03",
+    "coordinates": "41.32889°N 19.81778°E"
+  },
+  {
+    "name": "Tokyo",
+    "country_name": "Japan",
+    "population": "14043239",
+    "governor": "Yuriko Koike (TF)",
+    "area": "2194.07",
+    "coordinates": "35.68972°N 139.69222°E"
+  },
+  {
+    "name": "Tripoli",
+    "country_name": "State of Libya",
+    "population": "1170000",
+    "governor": "Abdulrauf Beitelmal",
+    "area": "1507",
+    "coordinates": "32.88722°N 13.19139°E"
+  },
+  {
+    "name": "Tunis",
+    "country_name": "Republic of Tunisia",
+    "population": "638845",
+    "governor": "Souad Abderrahim (Ennahda)",
+    "area": "212.63",
+    "coordinates": "36.80639°N 10.18167°E"
+  },
+  {
+    "name": "Ulaanbaatar",
+    "country_name": "Mongolia",
+    "population": "1466125",
+    "governor": "Dolgorsürengiin Sumyaabazar (MPP)",
+    "area": "4704.4",
+    "coordinates": "47.92028°N 106.91722°E"
+  },
+  {
+    "name": "Vaduz",
+    "country_name": "Principality of Liechtenstein",
+    "population": "5696",
+    "governor": "Manfred Bischof (FBP)",
+    "area": "17.3",
+    "coordinates": "47.141°N 9.521°E"
+  },
+  {
+    "name": "Valletta",
+    "country_name": "Republic of Malta",
+    "population": "5827",
+    "governor": "Alfred Zammit (PL)",
+    "area": "0.61",
+    "coordinates": "35.89833°N 14.51250°E"
+  },
+  {
+    "name": "Victoria, Seychelles",
+    "country_name": "Republic of Seychelles",
+    "population": "26450",
+    "governor": "David André",
+    "area": "20.1",
+    "coordinates": "4.617°S 55.450°E"
+  },
+  {
+    "name": "Vienna",
+    "country_name": "Republic of Austria",
+    "population": "1911191",
+    "governor": "Michael Ludwig (SPÖ)",
+    "area": "414.78",
+    "coordinates": "48.200°N 16.367°E"
+  },
+  {
+    "name": "Vientiane",
+    "country_name": "Lao People's Democratic Republic",
+    "population": "948477",
+    "governor": null,
+    "area": "3920",
+    "coordinates": "17.967°N 102.600°E"
+  },
+  {
+    "name": "Vilnius",
+    "country_name": "Republic of Lithuania",
+    "population": "588412",
+    "governor": "Remigijus Šimašius",
+    "area": "401",
+    "coordinates": "54.683°N 25.283°E"
+  },
+  {
+    "name": "Warsaw",
+    "country_name": "Republic of Poland",
+    "population": "1794166",
+    "governor": "Rafał Trzaskowski (PO)",
+    "area": "517.24",
+    "coordinates": "52.233°N 21.017°E"
+  },
+  {
+    "name": "Washington, D.C.",
+    "country_name": "United States of America",
+    "population": "689545",
+    "governor": "Muriel Bowser (D)",
+    "area": "68.34",
+    "coordinates": "38.9101°N 77.0147°W"
+  },
+  {
+    "name": "Wellington",
+    "country_name": "New Zealand",
+    "population": "215900",
+    "governor": "Andy Foster",
+    "area": "303.67",
+    "coordinates": "41.28889°S 174.77722°E"
+  },
+  {
+    "name": "Windhoek",
+    "country_name": "Republic of Namibia",
+    "population": "431000",
+    "governor": "Job Amupanda (AR)",
+    "area": "5133",
+    "coordinates": "22.57000°S 17.08361°E"
+  },
+  {
+    "name": "Yamoussoukro",
+    "country_name": "Republic of Côte d'Ivoire",
+    "population": "361893",
+    "governor": "Augustin Abdoulaye Thiam Houphouët",
+    "area": "3500",
+    "coordinates": "6.81611°N 5.27417°W"
+  },
+  {
+    "name": "Yaoundé",
+    "country_name": "Republic of Cameroon",
+    "population": "2765600",
+    "governor": null,
+    "area": "180",
+    "coordinates": "3.867°N 11.517°E"
+  },
+  {
+    "name": "Yaren District",
+    "country_name": "Republic of Nauru",
+    "population": "747",
+    "governor": null,
+    "area": "1.5",
+    "coordinates": "0.5477000°S 166.9208667°E"
+  },
+  {
+    "name": "Yerevan",
+    "country_name": "Republic of Armenia",
+    "population": "1060138",
+    "governor": "Hayk Marutyan",
+    "area": "223",
+    "coordinates": "40.18139°N 44.51444°E"
+  },
+  {
+    "name": "Zagreb",
+    "country_name": "Republic of Croatia",
+    "population": "790017",
+    "governor": "Tomislav Tomašević (Možemo!)",
+    "area": "641",
+    "coordinates": "45.817°N 15.983°E"
+  }
+]
