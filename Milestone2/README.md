@@ -1,9 +1,9 @@
 # Milestone 2
 This is the second milestone of the project where I scape data from Wikipedia<br/> 
 and Google News to create my database.<br/>
-## To run the code run the following commands:<br/>
+## To run the code run the following commands:<br\>
 `sudo apt install python3.8-venv`  
-Then create a virtual environment using the following command:<br/>
+Then create a virtual environment using the following command:<br\>
 `python3 -m venv Myenv`  
 Now, activate this environment using:<br\>
 `source Myenv/bin/activate`  
