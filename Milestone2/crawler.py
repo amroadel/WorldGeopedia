@@ -4,33 +4,10 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 import re
-#%%
-def get_countries(continents):
-    index = {'North_America': 1,'Asia': 2, 'Africa': 2, 'South_America': 2, 'Europe': 2, 'Oceania': 3}
-    countries = pd.DataFrame(columns=['Name', 'Continent', 'URL'])
-    for continent in continents:
-        url = f"https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_{continent}"
-        html_data = requests.get(url,'parser.html').text
-        soupObj = BeautifulSoup(html_data,'html.parser')
-        countries_table = (soupObj.find_all('table', {'class':'wikitable sortable'})[0])
-        body = countries_table.find('tbody', {})
-        tr = body.find_all('tr', {})
-
-        for i in range(1, len(tr)):
-            td = tr[i].find_all('td', {})
-            a = td[index[continent]].find('a', {})
-            country_name = a.get("title")
-            country_url = a.get("href")
-            countries = countries.append({'Name':country_name, 'Continent':continent, 'URL':f'https://en.wikipedia.org{country_url}'}, ignore_index = True)
-    
-    countries = countries.drop_duplicates(subset=['Name'], keep='first')
-    return countries
-
-
 
 # %%
 class Country:
-    def __init__(self, name, continent, url):   
+    def __init__(self, name, continent, url, covid_cases, vaccines):   
         '''
         A wrapper for a country page content
         '''
@@ -51,8 +28,8 @@ class Country:
         self.gdp_nominal = None
         self.gini_index = None
         self.hdi = None
-        self.covid_cases = None
-        self.vaccines = None
+        self.covid_cases = covid_cases
+        self.vaccines = vaccines
         self.legislature = None
         self.timezone = []
         self.currency = []
@@ -332,7 +309,9 @@ class Country:
                 'gdp_nominal':self.gdp_nominal,
                 'gini_index':self.gini_index,
                 'hdi':self.hdi,
-                'legislature':self.legislature}
+                'legislature':self.legislature,
+                'covid_cases':self.covid_cases,
+                'vaccines':self.vaccines}
 
     # Getters
     def get_capital_name(self):
@@ -500,94 +479,3 @@ class President:
                 'birthdate':self.birthdate,
                 'political_party':self.political_party,
                 'assumed_office':self.assumed_office}
-
-
-def main():
-    continents = ['Africa','North_America', 'Asia', 'South_America', 'Europe', 'Oceania']
-    countries_info = get_countries(continents)
-    
-    countries = []
-    capitals= []
-    presidents = []
-    official_languages = []
-    currencies = []
-    timezones = []
-    for index, country in countries_info.iterrows():
-
-        if country['Name'] == 'Vatican City':
-            continue
-        try:
-            country_data = Country(country['Name'], country['Continent'], country['URL'])
-            country_data.parse_country_data()
-            countries.append(country_data.get_single_valued_attr())
-            country_name = country_data.get_name()
-            
-
-            official_langs = country_data.get_official_lang()
-            for lang in official_langs:
-                official_languages.append({'country_name':country_name, 'official_language':lang})
-
-            curr = country_data.get_currency()
-            for c in curr:
-                currencies.append({'country_name':country_name, 'currency':c})
-
-            tzones = country_data.get_timezone()
-            for zone in tzones:
-                timezones.append({'country_name':country_name, 'timezone':zone})        
-
-            capital_name = country_data.get_capital_name()
-            capital_url = country_data.get_capital_url()
-            capital_data = Capital(capital_name, capital_url, country_name)
-            capital_data.parse_capital_data()
-            capitals.append(capital_data.get_parsed_attr())
-
-            president_name = country_data.get_president_name()
-            president_url = country_data.get_president_url()
-            president_data = President(president_name, president_url, country_name)
-            president_data.parse_president_data()
-            presidents.append(president_data.get_parsed_attr())
-        except Exception as e:
-            print('Problem with:', country_name, ' index:', index)
-            print(e)
-
-        # if index == 10:
-        #     break
-
-
-    countries_info.to_csv("countries_urls.csv", sep=',', encoding='utf-8', index=False)
-
-    countries = pd.DataFrame.from_records(countries)
-    countries = countries.drop(columns=['capital', 'president'])
-    countries.to_csv("data/countries.csv", sep=',', encoding='utf-8-sig', index=False)
-
-    capitals= pd.DataFrame.from_records(capitals)
-    capitals.to_csv("data/capitals.csv", sep=',', encoding='utf-8-sig', index=False)
-
-    presidents = pd.DataFrame.from_records(presidents)
-    presidents.to_csv("data/presidents.csv", sep=',', encoding='utf-8-sig', index=False)
-
-    official_languages = pd.DataFrame.from_records(official_languages)
-    official_languages.to_csv("data/official_languages.csv", sep=',', encoding='utf-8-sig', index=False)
-
-    currencies = pd.DataFrame.from_records(currencies)
-    currencies.to_csv("data/currencies.csv", sep=',', encoding='utf-8-sig', index=False)
-
-    timezones = pd.DataFrame.from_records(timezones)
-    timezones.to_csv("data/timezones.csv", sep=',', encoding='utf-8-sig', index=False)
-
-
-
-if __name__ == "__main__":
-    main()
-
-# country_data = Country('United States', 'North America', 'https://en.wikipedia.org/wiki/United_States')
-# country_data.parse_country_data()
-# x = country_data.get_single_valued_attr()
-# capital_data = Capital('De jure', '/wiki/De_jure', 'Switzerland')
-# capital_data.parse_capital_data()
-
-# president = President('Moon_Jae-in','/wiki/Moon_Jae-in', 'South_Korea')
-# president.parse_president_data()
-# print(x)
-# print(capital_data.get_parsed_attr())
-# print(president.get_parsed_attr())
