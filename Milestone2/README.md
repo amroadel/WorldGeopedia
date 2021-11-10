@@ -1,5 +1,5 @@
 # Milestone 2
-This is the second milestone of the project where I scape data from Wikipedia   
+This is the second milestone of the project where I scrape the data from Wikipedia   
 and Google News to create my database.  
 ## To run the code run the following commands:  
 `sudo apt install python3.8-venv`  
