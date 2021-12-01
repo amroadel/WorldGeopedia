@@ -127,11 +127,11 @@ CREATE TABLE IF NOT EXISTS User_review (
     travel_date             DATE            NOT NULL,
     rating                  ENUM('1','2','3','4','5','6','7','8','9','10')  NOT NULL,
     txt_review              VARCHAR(1024),
-    username                VARCHAR(255),    --NOT NULL,
-    country_name            VARCHAR(255),    --NOT NULL,
+    username                VARCHAR(255),    NOT NULL,
+    country_name            VARCHAR(255),    NOT NULL,
     PRIMARY KEY (id)
-    -- FOREIGN KEY (username) REFERENCES User (username)
-    --     ON UPDATE CASCADE,
-    -- FOREIGN KEY (country_name) REFERENCES Country (name)
-    --     ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (username) REFERENCES User (username)
+        ON UPDATE CASCADE,
+    FOREIGN KEY (country_name) REFERENCES Country (name)
+        ON UPDATE CASCADE ON DELETE CASCADE
 );
